@@ -44,7 +44,7 @@ Seuran ohjeita. Asenin seuravaksi tämä virtuali koneseen Linux Debian.
 
 Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja painan Start - Start with GUI.
 
-<img width="1435" height="1077" alt="image" src="https://github.com/user-attachments/assets/f0142f60-a1a9-4d18-93b6-0c7493832ed5" />
+<img width="935" height="777" alt="image" src="https://github.com/user-attachments/assets/f0142f60-a1a9-4d18-93b6-0c7493832ed5" />
 
 Minulla oli vähän erilainen vaihtoehto hjeden kanssa. painasin Graphical Install
 
