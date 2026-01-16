@@ -24,7 +24,7 @@ Latasin Linux Debian tästä: (https://www.debian.org/download)
 
 ## 3. Uuden virtuali koneen VirtualBoxin luominen
 
-<img width="889" height="585" alt="image" src="https://github.com/user-attachments/assets/7d017de7-950a-449a-ab8d-32f412b07ad5" />
+<img width="689" height="385" alt="image" src="https://github.com/user-attachments/assets/7d017de7-950a-449a-ab8d-32f412b07ad5" />
 
 
 ## 4. Linux Debian asentaminen VirtualBoxin
