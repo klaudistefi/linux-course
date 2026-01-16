@@ -56,7 +56,7 @@ Tämän jälkeen valinnat olivat samanlaiset kuin ohjeessa. Kieli ja sijainti.
 
 Seuraavaksi tein verkon määritys. Hostname kenttään kirjoitin "linux-test" ja domain-nimeksi "klaudilinux.com".
 
-Seuraavaksi VM pyysi root salasanaa. Jätin sen tyhjäksi. Tämän jälkeen VM pyysi käyttäjän koko nimi "Full name of the user", johon kirjoitin oman etu ja sukunimi. "User name for the account" kohtaan kirjoitin oman etunimeni. Sen jälkeen oli aika kekisa salasanan ja jatkoin eteenpäin (muistaakseni opetaja mainittiin, että salasanaa ei ole pakko asettaa, päätin asettaa sen varmuuden vuoksi).
+Seuraavaksi VM pyysi root salasanaa. Jätin sen tyhjäksi. Tämän jälkeen VM pyysi käyttäjän koko nimi "Full name of the user", johon kirjoitin oman etu ja sukunimi. "User name for the account" kohtaan kirjoitin oman etunimeni. Sen jälkeen oli aika keksiä salasanan ja jatkoin eteenpäin (muistaakseni opettaja mainitsi, että salasanaa ei ole pakko asettaa, päätin asettaa sen varmuuden vuoksi).
 
 Seuraavaksi siirryttiin partition disks osion. Tässä noudatin ohjetta ihan step-by-step:
 
@@ -66,7 +66,7 @@ Seuraavaksi siirryttiin partition disks osion. Tässä noudatin ohjetta ihan ste
 - Finish partitioning and write changes to disk
 - Write changes to the disk - YES
 
-Tämän jälkeen asennuksessa tuli vielä muutamia lisäkysymyksiä, jotka erosivat ohjeesta. Alla on 2 esimerkkejä minkälaisia lisää kysymyskija sain.
+Tämän jälkeen asennuksessa tuli vielä muutamia lisäkysymyksiä, jotka erosivat ohjeesta. Alla on 2 esimerkkejä minkälaisia lisää kysymyksiä sain.
 
 <img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/5dfc7edd-5a4e-461c-9919-68c2bc790660" >
 <img width="434" height="272" alt="Näyttökuva 2026-01-16 140053" src="https://github.com/user-attachments/assets/4a4e285d-3067-4383-a68d-8a6b00691b86" />
@@ -90,7 +90,7 @@ Kokonaisuudessa koko prosessi oli suoraviivainen ja helppo. Asennus meni pääos
 
 Raporttin kirjoittaessa yritin ottaa riitävästi kuvakaappauksia eri vaiheista, mutta jälkikäteen ymmärsin, että välivaiheista olisi hyvä ottaa enemmän kuvakaappauksia. Opetus seuraavalle kerralle.
 
-Uutta tietoa itselleni, jos haluan nuolin tekstissä, esimerkiksi ↑↓→←, nuolet saa Alt + 24, Alt + 25, Alt + 26 ja Alt + 27. 
+Uutta tietoa itselleni, jos haluan nuolia tekstissä, esimerkiksi ↑↓→←, nuolet saa Alt + 24, Alt + 25, Alt + 26 ja Alt + 27. 
 
 ## Bonus
 
