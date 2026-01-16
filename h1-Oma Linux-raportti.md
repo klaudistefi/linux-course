@@ -4,7 +4,7 @@ Tehtävänannot: https://terokarvinen.com/linux-palvelimet/
 
 # H1 - Oma Linux -raportti
 
-**Asensin onnistuneesti Linux Debian -käyttöjärjestelmän Virtualboxiin. Kuvailen koko prosessi.**
+**Asensin onnistuneesti Linux Debian -käyttöjärjestelmän Virtualboxiin. Kuvaillen koko prosessi + Bonus lopussa.**
 
 Tein harjoituksen perjantaina 16.1.2026. Käytään oma tietokonetta asennuksien varten. Minun kätäkäyttöjärjestelmä on Windows 11 Home, 64 -bittinen, pöytätiertokone.
 
@@ -40,7 +40,7 @@ Valmis.
 
 ## 4. Linux Debian asentaminen VirtualBoxin
 
-Seuran ohjeita. Asenin seuravaksi tämä virtuali koneseen Linux Debian.
+Klo. 13:30 Seuran ohjeita. Asenin seuravaksi tämä virtuali koneseen Linux Debian.
 
 Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja painan Start - Start with GUI. Minulla oli vähän erilainen vaihtoehto kuin ohjedessa. Painasin Graphical Install. 
 
@@ -68,8 +68,22 @@ Painasin intuition mukkan ja meni lääpi. Se myös kysyi uudeleen kielen vallin
 
 <img width="434" height="272" alt="Näyttökuva 2026-01-16 141439" src="https://github.com/user-attachments/assets/983abb43-8233-4c85-8515-e9eea68087c4" />
 
+Kaikken kaikken jälkeen olen pääsyt asentamaan Linux Debian ja pääsin sisään. 
+
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/9c9dd2be-8884-47f1-8e13-c883bf440720" />
+
 
 **Valmis.**
+
+**Bonus**
+
+Klo. 14:30 ajatelin kokeilla ja asenta Krita ohjelma Linuxlille. Krita on avoimen lähdekoodin maalausohjelma. menin Software "kauppaan" ja painasin Install oikealle ohjelmille. Asennus kesti muutamma minuttia ja pääsin siisän piirtämän. 
+
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/ec3bf9ef-be6c-472e-a58c-e8799a52031e" />
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/bb1f2cad-b6cd-46e3-9589-34fa6fd4a6e2" />
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/b74991a6-3974-4687-8499-bd67c60e0e46" />
+
+
 
 ## Yhteenveto
 
