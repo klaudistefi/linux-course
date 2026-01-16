@@ -42,17 +42,39 @@ Valmis.
 
 Seuran ohjeita. Asenin seuravaksi tämä virtuali koneseen Linux Debian.
 
-Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja painan Start - Start with GUI.
+Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja painan Start - Start with GUI. Minulla oli vähän erilainen vaihtoehto kuin ohjedessa. Painasin Graphical Install. 
 
 <img width="435" height="277" alt="image" src="https://github.com/user-attachments/assets/f0142f60-a1a9-4d18-93b6-0c7493832ed5" />
 
-Minulla oli vähän erilainen vaihtoehto hjeden kanssa. painasin Graphical Install
+Sen jälkeen oli samalisija vaihtoehtoja kuin ohjessa kielen valitsimisessa ja sijannista.
+
+- Kieli - English
+- Sijanti - other - Europe - Finland
+- Näppäimisto - Finnish
+
+Seuravaksi oli verkon konfigurointi. Hostname kirjoitiin - linux-test ja Domain on klaudilinux.com. En ollut varma mikä pitöäisi laitta, mutta päätyin tämmöseen. 
+Sen jälkeen oli Kysytty keksija root salsana, jäätin sen tyhjäkisi. Sitten oli kysytty set up Full name of the user. Antoi oma nimi ja sukunimi. Sitten oli pyydetty kekisa User name for the account olen laittanut oma etunimi. Sen jälkeen oli aika kekisa salasana. Laitasin salasana ja menin etenpäin. (muistakseni opetaja sanoi, että ei tarvitse laita, muttao len joka tapauksessa laitanut koska ohjessa luki että kanatta). 
+
+Nyt siiryyn partition disks osion. Tässä seurasin ohjeet ihan step-by-step. Guided - use entire dick - select disk to partition: oma niminen Virtual machine - All files in one partition (recommended for new users) - finish partitioning and write changes to disk - Write changes to the disk valitsin YES.
+
+Täsät ettänpäin minun oma asennus ja ohjeiden mainnittu määrä mitä Virtuali kone ole pyytänyt eroa. Alla on muuttama esimerkkija mistä lisää kysymyskija olen saanut. 
+
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/5dfc7edd-5a4e-461c-9919-68c2bc790660" >
+<img width="434" height="272" alt="Näyttökuva 2026-01-16 140053" src="https://github.com/user-attachments/assets/4a4e285d-3067-4383-a68d-8a6b00691b86" />
 
 
-Tätä ei ollut ohjeissa. Pianasin 
-Se myös kysyi pari kysymystä mitä ei ollut ohjeissa, Valitse maa uudeleen. 
+Painasin intuition mukkan ja meni lääpi. Se myös kysyi uudeleen kielen vallinan.
 
-<img width="804" height="602" alt="image" src="https://github.com/user-attachments/assets/5dfc7edd-5a4e-461c-9919-68c2bc790660" />
+
+<img width="434" height="272" alt="Näyttökuva 2026-01-16 141439" src="https://github.com/user-attachments/assets/983abb43-8233-4c85-8515-e9eea68087c4" />
+
+
+**Valmis.**
+
+## Yhteenveto
+
+
+Raporttin kirjoitamisen aikana yritin otta kuvia, mutta jäki kääten nyt ymmärän että olisi hyvä enemäk väliproseisesta kuvia. Opetus seuravalle kerralle. 
 
 
 ## Lähteet: 
