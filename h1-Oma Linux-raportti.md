@@ -84,7 +84,10 @@ Kaiken kaikkiaan Debianin asennus valmistui ja pääsin kirjautumaan järjestelm
 
 **Bonus**
 
-Klo. 14:30 ajatelin kokeilla ja asenta Krita ohjelma Linuxlille. Krita on avoimen lähdekoodin maalausohjelma. menin Software "kauppaan" ja painasin Install oikealle ohjelmille. Asennus kesti muutamma minuttia ja pääsin siisän piirtämän. 
+Klo 14.30 päätin kokeilla asentaa "Krita" ohjelman Linuxille.
+Krita on avoimen lähdekoodin maalausohjelma.
+
+Avasin Software-kaupan ja painoin Install. Asennus kesti muutaman minuutin, ohjelma avautui ja pääsin käyttämään sitä ja piirtämään.
 
 <img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/ec3bf9ef-be6c-472e-a58c-e8799a52031e" />
 <img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/bb1f2cad-b6cd-46e3-9589-34fa6fd4a6e2" />
@@ -93,9 +96,11 @@ Klo. 14:30 ajatelin kokeilla ja asenta Krita ohjelma Linuxlille. Krita on avoime
 
 ## Yhteenveto
 
-Kokonaisuudessa koko prosessi oli suoraviivoinen ja helpo.
-Raporttin kirjoitamisen aikana yritin otta kuvia, mutta jäki kääten nyt ymmärän että olisi hyvä enemäk väliproseisesta kuvia. Opetus seuravalle kerralle. 
-Myös olen oppinut jos haluan nuolin tekstissä se on esimmerkikis ↑↓→← se on yhdistelmä Alt + 24, Alt + 25, Alt + 26 ja Alt + 27. 
+Kokonaisuudessa koko prosessi oli suoraviivainen ja helppo. Asennus meni pääosin ohjeiden mukaan, eikä suuria ongelmia tuullut vastaan. 
+
+Raporttin kirjoittaessa yritin ottaa riitävästi kuvakaappauksia eri vaiheista, mutta jälkikäteen ymmärsin, että välivaiheista olisi hyvä ottaa enemmän kuvakaappauksia. Opetus seuraavalle kerralle.
+
+Uutta tietoa itselleni, jos haluan nuolin tekstissä, esimerkiksi ↑↓→←, nuolet saa Alt + 24, Alt + 25, Alt + 26 ja Alt + 27. 
 
 
 ## Lähteet: 
