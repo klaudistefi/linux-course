@@ -46,6 +46,14 @@ Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja pa
 
 <img width="870" height="572" alt="image" src="https://github.com/user-attachments/assets/f0147e80-b151-4b59-b521-1d3e8be7eda4" />
 
+Minulla oli vähän erilainen vaihtoehto hjeden kanssa. painasin Graphical Install
+
+
+<img width="803" height="600" alt="image" src="https://github.com/user-attachments/assets/b741a05e-4ae9-49b5-a9ce-008af5726aea" />
+Tätä ei ollut ohjeissa. Pianasin 
+Se myös kysyi pari kysymystä mitä ei ollut ohjeissa, Valitse maa uudeleen. 
+
+<img width="804" height="602" alt="image" src="https://github.com/user-attachments/assets/5dfc7edd-5a4e-461c-9919-68c2bc790660" />
 
 
 ## Lähteet: 
