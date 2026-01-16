@@ -82,7 +82,15 @@ Kaiken kaikkiaan Debianin asennus valmistui ja pääsin kirjautumaan järjestelm
 
 **Valmis.**
 
-**Bonus**
+## Yhteenveto
+
+Kokonaisuudessa koko prosessi oli suoraviivainen ja helppo. Asennus meni pääosin ohjeiden mukaan, eikä suuria ongelmia tuullut vastaan. 
+
+Raporttin kirjoittaessa yritin ottaa riitävästi kuvakaappauksia eri vaiheista, mutta jälkikäteen ymmärsin, että välivaiheista olisi hyvä ottaa enemmän kuvakaappauksia. Opetus seuraavalle kerralle.
+
+Uutta tietoa itselleni, jos haluan nuolin tekstissä, esimerkiksi ↑↓→←, nuolet saa Alt + 24, Alt + 25, Alt + 26 ja Alt + 27. 
+
+## Bonus
 
 Klo 14.30 päätin kokeilla asentaa "Krita" ohjelman Linuxille.
 Krita on avoimen lähdekoodin maalausohjelma.
@@ -94,13 +102,7 @@ Avasin Software-kaupan ja painoin Install. Asennus kesti muutaman minuutin, ohje
 <img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/b74991a6-3974-4687-8499-bd67c60e0e46" />
 
 
-## Yhteenveto
 
-Kokonaisuudessa koko prosessi oli suoraviivainen ja helppo. Asennus meni pääosin ohjeiden mukaan, eikä suuria ongelmia tuullut vastaan. 
-
-Raporttin kirjoittaessa yritin ottaa riitävästi kuvakaappauksia eri vaiheista, mutta jälkikäteen ymmärsin, että välivaiheista olisi hyvä ottaa enemmän kuvakaappauksia. Opetus seuraavalle kerralle.
-
-Uutta tietoa itselleni, jos haluan nuolin tekstissä, esimerkiksi ↑↓→←, nuolet saa Alt + 24, Alt + 25, Alt + 26 ja Alt + 27. 
 
 
 ## Lähteet: 
