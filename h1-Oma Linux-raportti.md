@@ -2,7 +2,7 @@ Kurssi: Linux palvelimet ICI003AS2A-3016
 
 Tehtävänannot: https://terokarvinen.com/linux-palvelimet/
 
-# H1 - Oma Linux -raportti
+# Oma Linux -raportti
 
 **Asensin onnistuneesti Linux Debian -käyttöjärjestelmän Virtualboxiin. Kuvaillen koko prosessi + Bonus lopussa.**
 
