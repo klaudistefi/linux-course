@@ -6,69 +6,76 @@ Tehtävänannot: https://terokarvinen.com/linux-palvelimet/
 
 **Asensin onnistuneesti Linux Debian -käyttöjärjestelmän Virtualboxiin. Kuvaillen koko prosessi + Bonus lopussa.**
 
-Tein harjoituksen perjantaina 16.1.2026. Käytään oma tietokonetta asennuksien varten. Minun kätäkäyttöjärjestelmä on Windows 11 Home, 64 -bittinen, pöytätiertokone.
+Tein harjoituksen perjantaina 16.1.2026. Käytin omaa tietokonetta asennuksia varten. Käyttöjärjestelmäni on Windows 11 Home, 64-bittinen, pöytätietokone.
 
-Asennan Linux Debian -käyttöjärjestelmän Virtualboxiin.
+Asensin Linux Debian -käyttöjärjestelmän VirtualBoxiin.
 
 ## 1. Virtualboxin asentaminen
 
-klo. 15:45 avasin Johanna Heinosen ohjeitä ja alkonut seurata niitä. Asensin VirtualBoxin tietokoneeseen. Perus asennus, meni hienosti läpi.
+Klo 15:45 avasin Johanna Heinosen ohjeet ja aloitin niiden seuraamisen. Asensin VirtualBoxin tietokoneeseen. Perusasennus sujui hyvin ja meni onnistuneesti läpi.
 
 Latasin VirtualBoxin tästä: https://www.virtualbox.org/wiki/Downloads
 
 ## 2. Linux Debian lataaminen
 
-klo. 13:00 seuran Johanna Heinosen ohjeitä Linux Debian latamisen ja asentamisen varteen. Kaikki meni hyvin. Painosin lataus nappi ja tiedosto tallentui minun kansioni.
+Klo 13:00 seurasin Johanna Heinosen Linux Debianin lataus ja asennusohjeita. Kaikki meni hyvin. Painoin latauspainiketta, ja tiedosto tallentui minun tietokoneen kansiooni.
 
-Latasin Linux Debian tästä: (https://www.debian.org/download)
+Latasin Linux Debian tästä: https://www.debian.org/download
 
-## 3. Uuden virtuali koneen VirtualBoxin luominen
+## 3. Uuden VirtualBox-virtuaalikoneen luominen
 
 <img width="421" height="205" alt="image" src="https://github.com/user-attachments/assets/33030827-d280-40ea-a94d-0e59347e3d96" />
 
-Klo. 13:20 avasin VirtualBoxin ja painasin Create a new virtual machine (VM). Avautui ikkuna  mihin olen laitaannut VM nimi ja ISO Image kohteesen olen löytänyt omasta kansiosta asken laadattu Linux Debian ISO tiedosto. Ja olen ottanut pois ruksi Proceed without Unattended Installation.
+Klo 13.20 avasin VirtualBoxin ja painoin “Create a new virtual machine (VM)”. Avautui ikkuna, jossa annoin virtuaalikoneelle nimen. ISO Image kohtaan valitsin omasta tietokone kansiostani ladatun Linux Debian ISO tiedoston. Poistin valinnan kohdasta “Proceed without Unattended Installation”.
 
-Painasin Next. 
+Painoin Next.
 
-Pääsin kohteseen missä pitäis määrritä RAM Memory and CPUs.
+Seuraavaksi siirryin kohtaan, jossa määritettiin RAM-muisti ja prosessorit:
 
-- Määrritiin Base Merory 4096 MB
+- Base Memory 4096 MB
 - Number of CPUs 2
 - Disk Size 40,00 GB
 
-Valmis.
+Tämän jälkeen tämä osa oli valmis.
 
-## 4. Linux Debian asentaminen VirtualBoxin
+## 4. Linux Debianin asentaminen VirtualBoxiin
 
-Klo. 13:30 Seuran ohjeita. Asenin seuravaksi tämä virtuali koneseen Linux Debian.
+Klo 13.30 seurasin ohjeita ja aloitin Linux Debianin asentamisen virtuaalikoneeseen.
 
-Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja painan Start - Start with GUI. Minulla oli vähän erilainen vaihtoehto kuin ohjedessa. Painasin Graphical Install. 
+Painoin hiiren oikealla painikkeella juuri luodun virtuaalikoneen päällä ja valitsin Start → Start with GUI. Minulla oli hieman eri näkymä kuin ohjeessa, joten valitsin Graphical Install.
 
 <img width="435" height="277" alt="image" src="https://github.com/user-attachments/assets/f0142f60-a1a9-4d18-93b6-0c7493832ed5" />
 
-Sen jälkeen oli samalisija vaihtoehtoja kuin ohjessa kielen valitsimisessa ja sijannista.
+Tämän jälkeen valinnat olivat samanlaiset kuin ohjeessa, kielen valitsimisessa ja sijannista.
 
 - Kieli - English
-- Sijanti - other - Europe - Finland
+- Sijanti - other → Europe → Finland
 - Näppäimisto - Finnish
 
-Seuravaksi oli verkon konfigurointi. Hostname kirjoitiin - linux-test ja Domain on klaudilinux.com. En ollut varma mikä pitöäisi laitta, mutta päätyin tämmöseen. 
-Sen jälkeen oli Kysytty keksija root salsana, jäätin sen tyhjäkisi. Sitten oli kysytty set up Full name of the user. Antoi oma nimi ja sukunimi. Sitten oli pyydetty kekisa User name for the account olen laittanut oma etunimi. Sen jälkeen oli aika kekisa salasana. Laitasin salasana ja menin etenpäin. (muistakseni opetaja sanoi, että ei tarvitse laita, muttao len joka tapauksessa laitanut koska ohjessa luki että kanatta). 
+Seuraavaksi tein verkon määritys. Hostname kenttään kirjoitin "linux-test" ja domain-nimeksi "klaudilinux.com". En ollut täysin varma, mitä tähän piti laittaa, mutta valitsin tämä.
 
-Nyt siiryyn partition disks osion. Tässä seurasin ohjeet ihan step-by-step. Guided - use entire dick - select disk to partition: oma niminen Virtual machine - All files in one partition (recommended for new users) - finish partitioning and write changes to disk - Write changes to the disk valitsin YES.
+Seuraavaksi VM pyysi root salasanaa. Jätin sen tyhjäksi. Tämän jälkeen VM pyysi käyttäjän koko nimi "Full name of the user", johon kirjoitin oman etu ja sukunimeni. "User name for the account" kohtaan kirjoitin oman etunimeni. Sen jälkeen oli aika kekisa salasanan ja jatkoin eteenpäin (muistaakseni opetaja mainittiin, että salasanaa ei ole pakko asettaa, päätin asettaa sen varmuuden vuoksi).
 
-Täsät ettänpäin minun oma asennus ja ohjeiden mainnittu määrä mitä Virtuali kone ole pyytänyt eroa. Alla on muuttama esimerkkija mistä lisää kysymyskija olen saanut. 
+Seuraavaksi siirryttiin partition disks osion. Tässä noudatin ohjetta ihan step-by-step:
+
+- Guided – use entire disk
+- Select disk to partition - virtuaalikoneen levy
+- All files in one partition (recommended for new users)
+- Finish partitioning and write changes to disk
+- Write changes to the disk - YES.
+
+Tämän jälkeen asennuksessa tuli vielä muutamia lisäkysymyksiä, jotka erosivat hieman ohjeesta. Alla on 2 esimerkkejä minkälaisia lisää kysymyskija sain.
 
 <img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/5dfc7edd-5a4e-461c-9919-68c2bc790660" >
 <img width="434" height="272" alt="Näyttökuva 2026-01-16 140053" src="https://github.com/user-attachments/assets/4a4e285d-3067-4383-a68d-8a6b00691b86" />
 
 
-Painasin intuition mukkan ja meni lääpi. Se myös kysyi uudeleen kielen vallinan.
+Vastasin niihin oman harkinnan mukaan ja jatkoin eteenpäin. Asennus kysyi vielä uudelleen kielivalintaa ja joitakin muita asetuksia. Näistä en valitettavasti ottanut kuvakaappauksia.
 
 
 <img width="434" height="272" alt="Näyttökuva 2026-01-16 141439" src="https://github.com/user-attachments/assets/983abb43-8233-4c85-8515-e9eea68087c4" />
 
-Kaikken kaikken jälkeen olen pääsyt asentamaan Linux Debian ja pääsin sisään. 
+Kaiken kaikkiaan Debianin asennus valmistui ja pääsin kirjautumaan järjestelmään. 
 
 <img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/9c9dd2be-8884-47f1-8e13-c883bf440720" />
 
@@ -84,11 +91,11 @@ Klo. 14:30 ajatelin kokeilla ja asenta Krita ohjelma Linuxlille. Krita on avoime
 <img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/b74991a6-3974-4687-8499-bd67c60e0e46" />
 
 
-
 ## Yhteenveto
 
-
+Kokonaisuudessa koko prosessi oli suoraviivoinen ja helpo.
 Raporttin kirjoitamisen aikana yritin otta kuvia, mutta jäki kääten nyt ymmärän että olisi hyvä enemäk väliproseisesta kuvia. Opetus seuravalle kerralle. 
+Myös olen oppinut jos haluan nuolin tekstissä se on esimmerkikis ↑↓→← se on yhdistelmä Alt + 24, Alt + 25, Alt + 26 ja Alt + 27. 
 
 
 ## Lähteet: 
