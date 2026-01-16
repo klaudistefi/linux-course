@@ -8,4 +8,4 @@ Minun kätäkäyttöjärjestelmä on Windows 11 Home, 64 -bittinen.
 
 Asennan Linux Ubuntu -käyttöjärjestelmän Virtualboxiin.
 
-1. Virtualboxin asennus
+## 1. Virtualboxin asennus
