@@ -40,7 +40,13 @@ Valmis.
 
 ## 4. Linux Debian asentaminen VirtualBoxin
 
-Seuran ohjeita. 
+Seuran ohjeita. Asenin seuravaksi tämä virtuali koneseen Linux Debian.
+
+Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja painan Start - Start with GUI.
+
+<img width="870" height="572" alt="image" src="https://github.com/user-attachments/assets/f0147e80-b151-4b59-b521-1d3e8be7eda4" />
+
+
 
 ## Lähteet: 
 Heinonen, Johanna 2025. How to Install Linux to Virtualbox? Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md#1-virtualbox-installation
