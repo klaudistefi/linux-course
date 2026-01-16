@@ -44,10 +44,10 @@ Seuran ohjeita. Asenin seuravaksi tämä virtuali koneseen Linux Debian.
 
 Painan oikealla hiiri näosauksella juuri asenettu virtuali koneen pääle ja painan Start - Start with GUI.
 
-<img width="870" height="572" alt="image" src="https://github.com/user-attachments/assets/f0147e80-b151-4b59-b521-1d3e8be7eda4" />
+<img width="1435" height="1077" alt="image" src="https://github.com/user-attachments/assets/f0142f60-a1a9-4d18-93b6-0c7493832ed5" />
 
 Minulla oli vähän erilainen vaihtoehto hjeden kanssa. painasin Graphical Install
-<img width="1435" height="1077" alt="image" src="https://github.com/user-attachments/assets/a420440d-a022-4598-9704-6fdfc5264283" />
+
 
 Tätä ei ollut ohjeissa. Pianasin 
 Se myös kysyi pari kysymystä mitä ei ollut ohjeissa, Valitse maa uudeleen. 
