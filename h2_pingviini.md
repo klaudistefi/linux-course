@@ -64,10 +64,5 @@ Yllä on listta mitä tuli esille.
 
 Analyysi: 
 
-
-## g) Vapaaehtoinen
-
-## h) Vapaaehtoinen
-
 ## Lähteet: 
 Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/
