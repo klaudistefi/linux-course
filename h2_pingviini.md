@@ -3,10 +3,9 @@ Tekijä: Klaudija Majamäki
 Päivämäärä: 24.1.2026
 Paikka: Pöytätietokone, Windows 11 -kone
 
-## Tiivistelmät
+## x) Tiivistelmät
 Tässä tehtävässä ...
-
-## x)
+Lisää jokin oma kysymys, idea tai huomio)
 
 ## a) Micro. Asenna micro-editori.
 <img width="405" height="317" alt="image" src="https://github.com/user-attachments/assets/80f695b1-12ab-4988-9436-59350237dd5b" />
@@ -57,9 +56,11 @@ Esimerkki putkista (pipes, "|").
 
 
 ## f) Rauta
-Asensin lshw by giving a command sudo apt install lshw ja sen jälkeen I run a sudo lshw -short -sanitize.
+Asensin lshw by giving a command _sudo apt install lshw_ ja sen jälkeen I _run a sudo lshw -short -sanitize_
 
-<img width="459" height="284" alt="image" src="https://github.com/user-attachments/assets/b9a3e020-79ce-447c-bf4d-c4b91fcd1d1a" />Yllä on listta mitä tuli esille. 
+<img width="459" height="284" alt="image" src="https://github.com/user-attachments/assets/b9a3e020-79ce-447c-bf4d-c4b91fcd1d1a" />
+
+Yllä on listta mitä tuli esille. 
 
 Analyysi: 
 
