@@ -1,6 +1,9 @@
 Kurssi: Linux palvelimet ICI003AS2A-3016
+
 Tekijä: Klaudija Majamäki
+
 Päivämäärä: 24.1.2026
+
 Paikka: Pöytätietokone, Windows 11 -kone
 
 ## x) Tiivistelmät
