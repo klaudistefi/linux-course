@@ -5,7 +5,22 @@ Paikka: Windows 11 -kone
 
 ## Tiivistelmät
 
+## a)
 
+
+## b)
+
+## c)
+
+## d)
+
+## e)
+
+## f)
+
+## g)
+
+## h)
 
 ## Lähteet: 
 Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/
