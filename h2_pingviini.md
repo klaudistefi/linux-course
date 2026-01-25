@@ -48,7 +48,7 @@ Selitys: Käytin sitä  ja tarkislenin kotihakemiston kansiorakennetta. Komento 
 
 ## c) FHS
 
--**/ - Root directory.**
+-**/ - Linux juurihakemisto**
 
 Käytetty komento: _ls /_
 
@@ -62,60 +62,53 @@ Luettelo kansioista:
 
 Käytetty komento: _ls /home_
 
-<img width="181" height="38" alt="image" src="https://github.com/user-attachments/assets/59fa29e8-4133-492b-b2ae-1b15c0165d99" />
-
 Selitys: Näen käyttäjätunnuksesi.
 
-- **/home/klaudija/ - my personal "home" directory**
+<img width="181" height="38" alt="image" src="https://github.com/user-attachments/assets/59fa29e8-4133-492b-b2ae-1b15c0165d99" />
+
+- **/home/klaudija/ - henkilökohtainen kansio**
 
 Käytetty komento: _ls /home/klaudija_
 
-Selitys: is the personal home directory of the user. It is the main place for storing user files.
+Selitys: henkilökohtainen kansio omille tiedostoille.
 
 <img width="564" height="41" alt="image" src="https://github.com/user-attachments/assets/1a4b6774-67ea-4be6-93f4-c6c831dc85df" />
 
-**- /etc/ - 	All system wide settings.**
+**- /etc/ -	sisältää järjestelmän asetustiedostot**
 
-Käytetty komento: 
+Käytetty komento: _ls /etc_
 
-Selitys: Valitse yksi tiedosto, esimerkiksi passwd. /etc contains system-wide configuration files stored as plain text.
+Selitys: simerkiksi tiedosto passwd sisältää käyttäjätietoja.
 
 <img width="630" height="305" alt="image" src="https://github.com/user-attachments/assets/24e4dc4f-8ab1-4686-9963-0b17dcdb1267" />
 
+**/media/ - käytetään irrotettavien laitteiden**
 
-**/media/ - Removable media**
+Käytetty komento: _ls /media_
 
-/media is used for mounting removable media such as USB drives.
-
-Käytetty komento: 
-
-Selitys:
+Selitys: käytetään irrotettavien laitteiden, kuten USB-muistien.
 
 <img width="197" height="34" alt="image" src="https://github.com/user-attachments/assets/a93d6c2b-3816-4e19-b0d8-b5208308ce88" />
 
+**/var/log/ - sisältää järjestelmän log tiedostot**
 
-**/var/log/ - System wide logs**
+Käytetty komento: _ls /var/log/_
 
-/var/log contains system log files.
-
-Käytetty komento: 
-
-Selitys:
-
+Selitys: sisältää järjestelmän log tiedostot.
 
 <img width="533" height="44" alt="image" src="https://github.com/user-attachments/assets/26fa9c2d-0bb6-4205-8886-c5a1129da8c4" />
 
 ## d) The Friendly M
 
-Mitä on grep - a command-line tool used to search for text patterns inside files.
+Mitä on grep? grep on komentorivityökalu, jolla etsitään tekstiä tiedostoista tai komentojen tulosteista.
 
 1.
 Käytetty komento: _ls /etc | grep net_
-Selitys: This command filters directory contents and shows only entries that contain the word "net".
+Selitys: Tämä komento näyttää vain ne /etc-hakemiston tiedostot, joissa on sana net.
+
 <img width="196" height="59" alt="image" src="https://github.com/user-attachments/assets/5af8a78e-fdff-4d3a-9a51-9bb92af271a4" />
 
-
-2.
+3.
 Käytetty komento: _grep -F_
 Selitys: 
 
@@ -123,28 +116,27 @@ Selitys:
 
 3.
 Käytetty komento: _grep --help_
-Selitys: 
+Selitys: Tällä komennolla sain lisätietoa grep-komennon käytöstä.
 
 <img width="392" height="332" alt="image" src="https://github.com/user-attachments/assets/9450b466-66a0-4ad9-b36a-f4c693d5ecd1" />
-
 
 ## e) Pipe
 Esimerkki putkista (pipes, "|").
 
 Käytetty komento: _journalctl | grep error_
-Selitys: This command pipes system log output to grep to search for error messages.
+Selitys: Tässä komennossa järjestelmän lokit ohjataan grep ille, joka etsii virheilmoituksia.
 
 <img width="631" height="341" alt="image" src="https://github.com/user-attachments/assets/f9ccb6b4-0ee5-476c-9376-89d6bf871810" />
 
-
 ## f) Rauta
-Asensin lshw by giving a command _sudo apt install lshw_ ja sen jälkeen I _run a sudo lshw -short -sanitize_
+Asensin **lshw** komennolla _sudo apt install lshw_.
+Sen jälkeen suoritin: _run a sudo lshw -short -sanitize_
+
+Selitys: Tämä komento näyttää koneen tärkeimmät laitteet selkeässä taulukkomuodossa.
+
+Tässä on lista mitä tuli esille.
 
 <img width="459" height="284" alt="image" src="https://github.com/user-attachments/assets/b9a3e020-79ce-447c-bf4d-c4b91fcd1d1a" />
-
-Yllä on listta mitä tuli esille. 
-
-Selitys: Komento näyttää tärkeimmät laitteet selkeässä taulukkomuodossa. Testatun koneen laitteisto on tasapainoinen ja soveltuu hyvin arkiseen käyttöön ja opiskeluun.
 
 ## Lähteet: 
 Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/
