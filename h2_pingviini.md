@@ -4,60 +4,61 @@ Päivämäärä: 24.1.2026 <br>
 Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 ## x) Tiivistelmät
-Tässä tehtävässä perehdyin Linuxin komentorivin peruskäyttöön ja tärkeimpiin hakemistoihin. Komentorivin käyttö tuntui aluksi haastavalta ja lopuksi silti haastavalta.
+
+Tässä tehtävässä perehdyin Linuxin komentorivin peruskäyttöön. Komentorivin käyttö tuntui aluksi haastavalta ja myös lopussa se oli vielä haastavaa, mutta ymmärrys parani vähän harjoittelun aikana.
 
 ## a) Micro. Asenna micro-editori.
+
+Käytetty komento: _sudo apt install micro_
+
+Käytetty komento: _micro test.txt_
+
+Selitys: ????
+
 <img width="405" height="317" alt="image" src="https://github.com/user-attachments/assets/80f695b1-12ab-4988-9436-59350237dd5b" />
 <img width="380" height="383" alt="image" src="https://github.com/user-attachments/assets/dab01838-b953-4281-a5ed-da7afd8f577b" />
 
-Komentorivin: _sudo apt install micro_
-
-Komentorivin: _micro test.txt_
-
 ## b) Asenna kolme itsellesi uutta komentoriviohjelmaa.
-Asensin kolme uutta komentoriviohjelmaa. Apt-get komeno milla saa kolme ohjelmaa kerralla: _sudo apt-get install s-tui git tree_
 
-**s-tui** - Se on suorittimen (CPU) valvontaohjelma. Tässä mitä se näyttää:
+Ensin asensin kolme uutta komentoriviohjelmaa komennolla: _sudo apt-get install s-tui git tree_
+
+**- s-tui - Se on suorittimen (CPU) valvontaohjelma.**
+
+Selitys: Käynnistin ohjelman terminaalista, ja se näytti reaaliaikaisesti suorittimen käytön, taajuuden ja lämpötilan.
 
 <img width="643" height="368" alt="image" src="https://github.com/user-attachments/assets/7dcbe8c1-fc7b-4aa6-a7b1-5f7fc31329df" />
 
-Sen tarkoittus on s-tui is a terminal-based user interface tool for monitoring CPU performance. I launched s-tui from the terminal, and it displayed CPU usage, frequency, and temperature in real time.
+**- Git - Versiohallintajärjestelmä.**
 
-**Git** - Versiohallintajärjestelmä
-Käytetään: Tiedostomuutosten seurantaan ja projektien ja koodin kanssa työskentelyynse 
+Selitys: Käytetään tiedostomuutosten seuraamiseen sekä projektien ja koodin hallintaan. 
 
-_git init_
+Käytetty komento: _git init_
 
 <img width="394" height="151" alt="image" src="https://github.com/user-attachments/assets/7ea05cd4-c822-4c8a-842a-0274dba06d11" />
 
-_git status_
+Käytetty komento: _git status_
 
 <img width="371" height="251" alt="image" src="https://github.com/user-attachments/assets/0dc26e8e-0713-4eb9-ac35-085b659aaa48" />
 
-Tässä miten se toimi...Git is a version control system used to track changes in files.
-I checked its status using the command line.
+-**Tree - näyttää hakemistorakenteen "puunäkymässä".**
 
-**Tree** - näyttää hakemistorakenteen "puunäkymässä".
-
-Tässä miten se toimi...Tree is a command-line tool that displays directory structures in a tree format. I used tree to view the folder structure of my home directory.
+Selitys: Käytin sitä  ja tarkislenin kotihakemiston kansiorakennetta. Komento auttoi hahmottamaan kansioiden rakenteen selkeämmin.
 
 <img width="168" height="250" alt="image" src="https://github.com/user-attachments/assets/cf955f90-101f-46ea-8d40-271fa1fd283e" />
 
-
 ## c) FHS
 
-**/** - Root directory. 
+-**/ - Root directory.**
 
 Käytetty komento: _ls /_
 
-Root directory of the Linux filesystem. All other directories are located under it.
+Selitys: Juurihakemisto on Linux-järjestelmän ylin taso, ja kaikki muut hakemistot sijaitsevat sen alla.
+
 Luettelo kansioista: 
 
 <img width="460" height="47" alt="image" src="https://github.com/user-attachments/assets/b1c81f44-ec77-4604-a2dd-986cd0a5963e" />
 
-Selitys: 
-
-**/home/** - Contains home directories for all users.
+- **/home/ - sisältää kaikkien käyttäjien kotihakemistot**
 
 Käytetty komento: _ls /home_
 
@@ -65,46 +66,44 @@ Käytetty komento: _ls /home_
 
 Selitys: Näen käyttäjätunnuksesi.
 
-**/home/klaudija/** - my personal "home" directory
+- **/home/klaudija/ - my personal "home" directory**
 
 Käytetty komento: _ls /home/klaudija_
 
-is the personal home directory of the user. It is the main place for storing user files.
+Selitys: is the personal home directory of the user. It is the main place for storing user files.
 
 <img width="564" height="41" alt="image" src="https://github.com/user-attachments/assets/1a4b6774-67ea-4be6-93f4-c6c831dc85df" />
 
-Selitys:
-
-**/etc/** - 	All system wide settings. 
+**- /etc/ - 	All system wide settings.**
 
 Käytetty komento: 
+
+Selitys: Valitse yksi tiedosto, esimerkiksi passwd. /etc contains system-wide configuration files stored as plain text.
 
 <img width="630" height="305" alt="image" src="https://github.com/user-attachments/assets/24e4dc4f-8ab1-4686-9963-0b17dcdb1267" />
 
 
-Selitys: Valitse yksi tiedosto, esimerkiksi passwd. /etc contains system-wide configuration files stored as plain text.
-
-
-**/media/** - Removable media
+**/media/ - Removable media**
 
 /media is used for mounting removable media such as USB drives.
 
 Käytetty komento: 
 
-<img width="197" height="34" alt="image" src="https://github.com/user-attachments/assets/a93d6c2b-3816-4e19-b0d8-b5208308ce88" />
-
 Selitys:
 
-**/var/log/** - System wide logs
+<img width="197" height="34" alt="image" src="https://github.com/user-attachments/assets/a93d6c2b-3816-4e19-b0d8-b5208308ce88" />
+
+
+**/var/log/ - System wide logs**
 
 /var/log contains system log files.
 
 Käytetty komento: 
 
+Selitys:
+
+
 <img width="533" height="44" alt="image" src="https://github.com/user-attachments/assets/26fa9c2d-0bb6-4205-8886-c5a1129da8c4" />
-
-Selitys: 
-
 
 ## d) The Friendly M
 
