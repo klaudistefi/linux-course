@@ -20,17 +20,17 @@ Selitys: Asennin Micro-editori. Tämän jälkeen micro käynnistettiin komentori
 <img width="405" height="317" alt="image" src="https://github.com/user-attachments/assets/80f695b1-12ab-4988-9436-59350237dd5b" />
 <img width="380" height="383" alt="image" src="https://github.com/user-attachments/assets/dab01838-b953-4281-a5ed-da7afd8f577b" />
 
-## b) Asenna kolme itsellesi uutta komentoriviohjelmaa.
+## b) Asenna kolme itsellesi uutta komentoriviohjelmaa
 
 Ensin asensin kolme uutta komentoriviohjelmaa komennolla: _sudo apt-get install s-tui git tree_
 
-**- s-tui - Se on suorittimen (CPU) valvontaohjelma.**
+**- s-tui - Se on suorittimen (CPU) valvontaohjelma**
 
 Selitys: Käynnistin ohjelman terminaalista, ja se näytti reaaliaikaisesti suorittimen käytön, taajuuden ja lämpötilan.
 
 <img width="643" height="368" alt="image" src="https://github.com/user-attachments/assets/7dcbe8c1-fc7b-4aa6-a7b1-5f7fc31329df" /> <br> <br>
 
-**- Git - Versiohallintajärjestelmä.**
+**- Git - Versiohallintajärjestelmä**
 
 Selitys: Käytetään tiedostomuutosten seuraamiseen sekä projektien ja koodin hallintaan. 
 
@@ -42,7 +42,7 @@ Käytetty komento: _git status_
 
 <img width="371" height="251" alt="image" src="https://github.com/user-attachments/assets/0dc26e8e-0713-4eb9-ac35-085b659aaa48" /> <br> <br>
 
--**Tree - näyttää hakemistorakenteen "puunäkymässä".**
+-**Tree - näyttää hakemistorakenteen "puunäkymässä"**
 
 Käytetty komento: _tree_
 
