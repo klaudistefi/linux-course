@@ -1,11 +1,13 @@
 Kurssi: Linux palvelimet ICI003AS2A-3016 <br>
 Tekijä: Klaudija Majamäki <br>
-Päivämäärä: 24.1.2026 <br>
+Päivämäärä: 24.1 - 25.1.2026 <br>
 Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 ## x) Tiivistelmät
 
 Tässä tehtävässä perehdyin Linuxin komentorivin peruskäyttöön. Komentorivin käyttö tuntui aluksi haastavalta ja myös lopussa se oli vielä haastavaa, mutta ymmärrys parani vähän harjoittelun aikana.
+
+Käytetty Linux Debian 64 bit.
 
 ## a) Micro. Asenna micro-editori.
 
@@ -104,19 +106,19 @@ Selitys: sisältää järjestelmän log tiedostot.
 
 Mitä on grep? grep on komentorivityökalu, jolla etsitään tekstiä tiedostoista tai komentojen tulosteista.
 
-**1. ls /etc | grep net**
+**1. ls /etc | grep net**<br>
 Käytetty komento: _ls /etc | grep net_  <br>
 Selitys: Tämä komento näyttää vain ne /etc-hakemiston tiedostot, joissa on sana net.
 
 <img width="196" height="59" alt="image" src="https://github.com/user-attachments/assets/5af8a78e-fdff-4d3a-9a51-9bb92af271a4" /> <br>
 
-**3. grep -F**
+**3. grep -F**<br>
 Käytetty komento: _grep -F_ <br>
 Selitys: 
 
 <img width="203" height="29" alt="image" src="https://github.com/user-attachments/assets/c8159280-9c44-4313-95b3-53ac74c230ec" /> <br>
 
-**3. grep --help**
+**3. grep --help**<br>
 Käytetty komento: _grep --help_ <br>
 Selitys: Tällä komennolla sain lisätietoa grep-komennon käytöstä.
 
@@ -125,7 +127,7 @@ Selitys: Tällä komennolla sain lisätietoa grep-komennon käytöstä.
 ## e) Pipe
 Esimerkki putkista (pipes, "|").
 
-Käytetty komento: _journalctl | grep error_
+Käytetty komento: _journalctl | grep error_ <br>
 Selitys: Tässä komennossa järjestelmän lokit ohjataan grep ille, joka etsii virheilmoituksia.
 
 <img width="631" height="341" alt="image" src="https://github.com/user-attachments/assets/f9ccb6b4-0ee5-476c-9376-89d6bf871810" />
