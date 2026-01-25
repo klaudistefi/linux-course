@@ -15,7 +15,7 @@ Käytetty komento: _sudo apt install micro_
 
 Käytetty komento: _micro test.txt_
 
-Selitys: Asennin Micro-editori. Tämän jälkeen micro käynnistettiin komentoriviltä ja tiedosto test.txt avattiin muokattavaksi. Micro on kevyt tekstieditori, jota käytetään suoraan terminaalissa.
+Selitys: Asensin Micro-editori. Tämän jälkeen micro käynnistettiin komentoriviltä ja tiedosto test.txt avattiin muokattavaksi. Micro on kevyt tekstieditori, jota käytetään suoraan terminaalissa.
 
 <img width="405" height="317" alt="image" src="https://github.com/user-attachments/assets/80f695b1-12ab-4988-9436-59350237dd5b" />
 <img width="380" height="383" alt="image" src="https://github.com/user-attachments/assets/dab01838-b953-4281-a5ed-da7afd8f577b" />
@@ -26,7 +26,7 @@ Ensin asensin kolme uutta komentoriviohjelmaa komennolla: _sudo apt-get install 
 
 **- s-tui - Se on suorittimen (CPU) valvontaohjelma**
 
-Selitys: Käynnistin ohjelman terminaalista, ja se näytti reaaliaikaisesti suorittimen käytön, taajuuden ja lämpötilan.
+Selitys: Käynnistin ohjelman terminaalista, ja se näytti minulle reaaliaikaisesti suorittimen käytön, taajuuden ja lämpötilan.
 
 <img width="643" height="368" alt="image" src="https://github.com/user-attachments/assets/7dcbe8c1-fc7b-4aa6-a7b1-5f7fc31329df" /> <br> <br>
 
@@ -46,7 +46,7 @@ Käytetty komento: _git status_
 
 Käytetty komento: _tree_
 
-Selitys: Käytin sitä  ja tarkislenin kotihakemiston kansiorakennetta. Komento auttoi hahmottamaan kansioiden rakenteen selkeämmin.
+Selitys: Käytin sitä ja tarkistelin kotihakemiston kansiorakennetta. Komento auttoi hahmottamaan kansioiden rakenteen selkeämmin.
 
 <img width="168" height="250" alt="image" src="https://github.com/user-attachments/assets/cf955f90-101f-46ea-8d40-271fa1fd283e" />
 
@@ -66,7 +66,7 @@ Luettelo kansioista:
 
 Käytetty komento: _ls /home_
 
-Selitys: Näen käyttäjätunnuksesi.
+Selitys: Näen käyttäjätunnuksen.
 
 <img width="181" height="38" alt="image" src="https://github.com/user-attachments/assets/59fa29e8-4133-492b-b2ae-1b15c0165d99" /> <br>
 
@@ -82,7 +82,7 @@ Selitys: henkilökohtainen kansio omille tiedostoille.
 
 Käytetty komento: _ls /etc_
 
-Selitys: simerkiksi tiedosto passwd sisältää käyttäjätietoja.
+Selitys: esimerkiksi tiedosto passwd sisältää käyttäjätietoja.
 
 <img width="630" height="305" alt="image" src="https://github.com/user-attachments/assets/24e4dc4f-8ab1-4686-9963-0b17dcdb1267" /> <br>
 
@@ -128,7 +128,7 @@ Selitys: Tällä komennolla sain lisätietoa grep-komennon käytöstä.
 Esimerkki putkista (pipes, "|").
 
 Käytetty komento: _journalctl | grep error_ <br>
-Selitys: Tässä komennossa järjestelmän lokit ohjataan grep ille, joka etsii virheilmoituksia.
+Selitys: Tässä komennossa järjestelmän lokit ohjataan grep:ille, joka etsii virheilmoituksia.
 
 <img width="631" height="341" alt="image" src="https://github.com/user-attachments/assets/f9ccb6b4-0ee5-476c-9376-89d6bf871810" />
 
