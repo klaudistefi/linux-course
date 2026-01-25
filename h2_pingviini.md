@@ -4,8 +4,7 @@ Päivämäärä: 24.1.2026 <br>
 Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 ## x) Tiivistelmät
-Tässä tehtävässä ...
-Lisää jokin oma kysymys, idea tai huomio)
+Tässä tehtävässä perehdyin Linuxin komentorivin peruskäyttöön ja tärkeimpiin hakemistoihin. Komentorivin käyttö tuntui aluksi haastavalta ja lopuksi silti haastavalta.
 
 ## a) Micro. Asenna micro-editori.
 <img width="405" height="317" alt="image" src="https://github.com/user-attachments/assets/80f695b1-12ab-4988-9436-59350237dd5b" />
