@@ -49,37 +49,94 @@ Tässä miten se toimi...Tree is a command-line tool that displays directory str
 
 **/** - Root directory. 
 
+Käytetty komento: _ls /_
+
 Root directory of the Linux filesystem. All other directories are located under it.
 Luettelo kansioista: 
 
 <img width="460" height="47" alt="image" src="https://github.com/user-attachments/assets/b1c81f44-ec77-4604-a2dd-986cd0a5963e" />
 
+Selitys: 
 
 **/home/** - Contains home directories for all users.
 
+Käytetty komento: _ls /home_
 
+<img width="181" height="38" alt="image" src="https://github.com/user-attachments/assets/59fa29e8-4133-492b-b2ae-1b15c0165d99" />
+
+Selitys: Näen käyttäjätunnuksesi.
 
 **/home/klaudija/** - my personal "home" directory
 
+Käytetty komento: _ls /home/klaudija_
 
+is the personal home directory of the user. It is the main place for storing user files.
+
+<img width="564" height="41" alt="image" src="https://github.com/user-attachments/assets/1a4b6774-67ea-4be6-93f4-c6c831dc85df" />
+
+Selitys:
 
 **/etc/** - 	All system wide settings. 
 
+Käytetty komento: 
+
+<img width="630" height="305" alt="image" src="https://github.com/user-attachments/assets/24e4dc4f-8ab1-4686-9963-0b17dcdb1267" />
 
 
-**/media/** - Removable media, such as /media/cdrom/ or /media/usbdisk/
+Selitys: Valitse yksi tiedosto, esimerkiksi passwd. /etc contains system-wide configuration files stored as plain text.
 
 
+**/media/** - Removable media
 
-**/var/log/** - System wide logs, such as /var/log/syslog, /var/log/auth.log and /var/log/apache2/error.log
+/media is used for mounting removable media such as USB drives.
 
+Käytetty komento: 
+
+<img width="197" height="34" alt="image" src="https://github.com/user-attachments/assets/a93d6c2b-3816-4e19-b0d8-b5208308ce88" />
+
+Selitys:
+
+**/var/log/** - System wide logs
+
+/var/log contains system log files.
+
+Käytetty komento: 
+
+<img width="533" height="44" alt="image" src="https://github.com/user-attachments/assets/26fa9c2d-0bb6-4205-8886-c5a1129da8c4" />
+
+Selitys: 
 
 
 ## d) The Friendly M
 
+Mitä on grep - a command-line tool used to search for text patterns inside files.
+
+1.
+Käytetty komento: _ls /etc | grep net_
+Selitys: This command filters directory contents and shows only entries that contain the word "net".
+<img width="196" height="59" alt="image" src="https://github.com/user-attachments/assets/5af8a78e-fdff-4d3a-9a51-9bb92af271a4" />
+
+
+2.
+Käytetty komento: _grep -F_
+Selitys: 
+
+<img width="203" height="29" alt="image" src="https://github.com/user-attachments/assets/c8159280-9c44-4313-95b3-53ac74c230ec" />
+
+3.
+Käytetty komento: _grep --help_
+Selitys: 
+
+<img width="392" height="332" alt="image" src="https://github.com/user-attachments/assets/9450b466-66a0-4ad9-b36a-f4c693d5ecd1" />
+
 
 ## e) Pipe
 Esimerkki putkista (pipes, "|").
+
+Käytetty komento: _journalctl | grep error_
+Selitys: This command pipes system log output to grep to search for error messages.
+
+<img width="631" height="341" alt="image" src="https://github.com/user-attachments/assets/f9ccb6b4-0ee5-476c-9376-89d6bf871810" />
 
 
 ## f) Rauta
