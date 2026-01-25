@@ -9,7 +9,7 @@ Tässä tehtävässä perehdyin Linuxin komentorivin peruskäyttöön. Komentori
 
 Käytetty Linux Debian 64 bit.
 
-## a) Micro. Asenna micro-editori.
+## a) Micro. Asenna micro-editori
 
 Käytetty komento: _sudo apt install micro_
 
