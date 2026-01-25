@@ -86,11 +86,11 @@ Selitys: esimerkiksi tiedosto passwd sisältää käyttäjätietoja.
 
 <img width="630" height="305" alt="image" src="https://github.com/user-attachments/assets/24e4dc4f-8ab1-4686-9963-0b17dcdb1267" /> <br>
 
-- **/media/ - käytetään irrotettavien laitteiden**
+- **/media/ - listaus ulkoisista laitteista**
 
 Käytetty komento: _ls /media_
 
-Selitys: käytetään irrotettavien laitteiden, kuten USB-muistien.
+Selitys: käytetään kun halutaan nähdä mitä ulkoisija laitteita järjestelmään on kytketty kuten ulkoiset kovalevyt tai usb-tikut
 
 <img width="197" height="34" alt="image" src="https://github.com/user-attachments/assets/a93d6c2b-3816-4e19-b0d8-b5208308ce88" /> <br>
 
