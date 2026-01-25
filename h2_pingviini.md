@@ -52,7 +52,7 @@ Selitys: Käytin sitä  ja tarkislenin kotihakemiston kansiorakennetta. Komento 
 
 ## c) FHS
 
--**/ - Linux juurihakemisto**
+- **/ - Linux juurihakemisto**
 
 Käytetty komento: _ls /_
 
@@ -78,7 +78,7 @@ Selitys: henkilökohtainen kansio omille tiedostoille.
 
 <img width="564" height="41" alt="image" src="https://github.com/user-attachments/assets/1a4b6774-67ea-4be6-93f4-c6c831dc85df" /> <br>
 
-**- /etc/ -	sisältää järjestelmän asetustiedostot**
+- **/etc/ -	sisältää järjestelmän asetustiedostot**
 
 Käytetty komento: _ls /etc_
 
@@ -86,7 +86,7 @@ Selitys: simerkiksi tiedosto passwd sisältää käyttäjätietoja.
 
 <img width="630" height="305" alt="image" src="https://github.com/user-attachments/assets/24e4dc4f-8ab1-4686-9963-0b17dcdb1267" /> <br>
 
-**/media/ - käytetään irrotettavien laitteiden**
+- **/media/ - käytetään irrotettavien laitteiden**
 
 Käytetty komento: _ls /media_
 
@@ -94,7 +94,7 @@ Selitys: käytetään irrotettavien laitteiden, kuten USB-muistien.
 
 <img width="197" height="34" alt="image" src="https://github.com/user-attachments/assets/a93d6c2b-3816-4e19-b0d8-b5208308ce88" /> <br>
 
-**/var/log/ - sisältää järjestelmän log tiedostot**
+- **/var/log/ - sisältää järjestelmän log tiedostot**
 
 Käytetty komento: _ls /var/log/_
 
@@ -114,7 +114,7 @@ Selitys: Tämä komento näyttää vain ne /etc-hakemiston tiedostot, joissa on 
 
 **3. grep -F**<br>
 Käytetty komento: _grep -F_ <br>
-Selitys: 
+Selitys: Komento lukee hakusanat erillisestä tiedostosta ja etsii ne toisesta tiedostosta tai tulosteesta.
 
 <img width="203" height="29" alt="image" src="https://github.com/user-attachments/assets/c8159280-9c44-4313-95b3-53ac74c230ec" /> <br>
 
