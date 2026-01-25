@@ -138,7 +138,7 @@ Sen jälkeen suoritin: _run a sudo lshw -short -sanitize_
 
 Selitys: Tämä komento näyttää koneen tärkeimmät laitteet selkeässä taulukkomuodossa.
 
-Tässä on lista mitä tuli esille.
+Tässä on lista mitä tuli esille, eli tietoja tärkeimmistä järjestelmän tiedoista kuten prosessori, muisti ja mistä eri inputeista löytyy virtanappi esimerkiksi.
 
 <img width="459" height="284" alt="image" src="https://github.com/user-attachments/assets/b9a3e020-79ce-447c-bf4d-c4b91fcd1d1a" />
 
