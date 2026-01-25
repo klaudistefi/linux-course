@@ -47,6 +47,33 @@ Tässä miten se toimi...Tree is a command-line tool that displays directory str
 
 ## c) FHS
 
+**/** - Root directory. 
+
+Root directory of the Linux filesystem. All other directories are located under it.
+Luettelo kansioista: 
+
+<img width="460" height="47" alt="image" src="https://github.com/user-attachments/assets/b1c81f44-ec77-4604-a2dd-986cd0a5963e" />
+
+
+**/home/** - Contains home directories for all users.
+
+
+
+**/home/klaudija/** - my personal "home" directory
+
+
+
+**/etc/** - 	All system wide settings. 
+
+
+
+**/media/** - Removable media, such as /media/cdrom/ or /media/usbdisk/
+
+
+
+**/var/log/** - System wide logs, such as /var/log/syslog, /var/log/auth.log and /var/log/apache2/error.log
+
+
 
 ## d) The Friendly M
 
