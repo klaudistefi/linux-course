@@ -146,7 +146,7 @@ Asensin lshw by giving a command _sudo apt install lshw_ ja sen jälkeen I _run 
 
 Yllä on listta mitä tuli esille. 
 
-Analyysi: 
+Selitys: Komento näyttää tärkeimmät laitteet selkeässä taulukkomuodossa. Testatun koneen laitteisto on tasapainoinen ja soveltuu hyvin arkiseen käyttöön ja opiskeluun.
 
 ## Lähteet: 
 Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/
