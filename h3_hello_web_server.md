@@ -62,7 +62,7 @@ Se ei mennyt ihan helposti, pitänyt säätää vähän sen jälkeen ennen kuin 
 **Selitys:** Tein etusivu HTML5 standardin mukaisesti. Sivulla on otsikko, teksti ja oikea HTML rakenne. Sivun koodin validoin HTML validaattorilla. Validaattori ehdotti lang attribuutin lisäämistä HTML tagiin kielen määrittämiseksi.
 
  <img width="806" height="64" alt="image" src="https://github.com/user-attachments/assets/65dd3174-f003-4bde-8d9b-7d0f2b81fc3e" />
- <img width="819" height="417" alt="image" src="https://github.com/user-attachments/assets/ef42877b-7ee5-444d-b061-d079582a822c" /> <br>
+ <img width="719" height="317" alt="image" src="https://github.com/user-attachments/assets/ef42877b-7ee5-444d-b061-d079582a822c" /> <br>
 
  
 ## f) Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat.
@@ -85,7 +85,7 @@ _1. sudo apt update <br>
 Minulla on jo GitHub-tunnus. Lisäsin Haaga-Helian sähköpostiosoitteen GitHubiin ja täytin GitHub Education hakemuksen. Hakemus on hyväksytty. 
 
  <img width="532" height="120" alt="image" src="https://github.com/user-attachments/assets/0d50772d-d106-4475-864b-37dec691001a" />
-<img width="739" height="238" alt="image" src="https://github.com/user-attachments/assets/3692893d-cc6b-4e0b-a581-8d5b458a3bdb" /> <br>
+<img width="539" height="138" alt="image" src="https://github.com/user-attachments/assets/3692893d-cc6b-4e0b-a581-8d5b458a3bdb" /> <br>
 
 ## Lähteet:
 
