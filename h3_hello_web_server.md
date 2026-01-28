@@ -3,7 +3,7 @@ Tekijä: Klaudija Majamäki <br>
 Päivämäärä: 27.1 - 28.1.2026 <br>
 Paikka: Pöytätietokone, Windows 11 -kone <br>
 
-## h3 Hello Web Server
+# h3 Hello Web Server
 
 ## x) Tiivistelmä
 
@@ -87,7 +87,6 @@ Minulla on jo GitHub-tunnus. Lisäsin Haaga-Helian sähköpostiosoitteen GitHubi
 
  <img width="532" height="120" alt="image" src="https://github.com/user-attachments/assets/0d50772d-d106-4475-864b-37dec691001a" />
 <img width="739" height="238" alt="image" src="https://github.com/user-attachments/assets/3692893d-cc6b-4e0b-a581-8d5b458a3bdb" /> <br
-
  
 ## Lähteet:
 Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/ <br>
