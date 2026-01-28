@@ -7,9 +7,8 @@ Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 ## x) Tiivistelmä
 
-- Tässä tehtävässä opettelin Apache-webpalvelimen perustoimintaa ja name based virtual hostin käyttöä. <br>
-- Testasin, että palvelin vastaa localhost-osoitteesta ja tutkin Apache-lokitiedostoja. <br>
-- Loin uuden virtual hostin ja tein sille oman HTML5-etusivun. <br>
+- Tässä tehtävässä opettelin Apache webpalvelimen perustoimintaa ja name based virtual hostin käyttöä. <br>
+- Testasin, että palvelin vastaa localhost osoitteesta ja tutkin Apache lokitiedostoja. <br>
 - Opin myös käyttämään curl-komentoa. <br>
 
 ## a) Testaa. Weppipalvelimeni vastaa localhost-osoitteesta. Asenna Apache-weppipalvelin.
