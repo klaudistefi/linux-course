@@ -85,7 +85,7 @@ _1. sudo apt update <br>
 Minulla on jo GitHub-tunnus. Lisäsin Haaga-Helian sähköpostiosoitteen GitHubiin ja täytin GitHub Education hakemuksen. Hakemus on hyväksytty. 
 
  <img width="532" height="120" alt="image" src="https://github.com/user-attachments/assets/0d50772d-d106-4475-864b-37dec691001a" />
-<img width="739" height="238" alt="image" src="https://github.com/user-attachments/assets/3692893d-cc6b-4e0b-a581-8d5b458a3bdb" /> <br
+<img width="739" height="238" alt="image" src="https://github.com/user-attachments/assets/3692893d-cc6b-4e0b-a581-8d5b458a3bdb" /> <br>
 
 ## Lähteet:
 
