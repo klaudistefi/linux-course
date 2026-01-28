@@ -89,8 +89,7 @@ Minulla on jo GitHub-tunnus. Lisäsin Haaga-Helian sähköpostiosoitteen GitHubi
 <img width="739" height="238" alt="image" src="https://github.com/user-attachments/assets/3692893d-cc6b-4e0b-a581-8d5b458a3bdb" /> <br
 
  
-## Lähteet: 
-
+## Lähteet:
 Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/ <br>
 
 The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: Name-based Virtual Host Support: https://httpd.apache.org/docs/2.4/vhosts/name-based.html <br>
