@@ -75,7 +75,7 @@ _$ssh root@185.20.136.42 <br>
 <img width="853" height="54" alt="image" src="https://github.com/user-attachments/assets/dcdf526e-1b6f-46c8-b0a3-af0b86b80452" />
 <img width="701" height="81" alt="image" src="https://github.com/user-attachments/assets/fc62604e-9c40-4588-b822-724893e4f4b6" />
 
-Selitys: Asensin palvelimelle Apache verkkopalvelimen, jotta voin julkaista verkkosivu. Sitten muokkasin Apachen oletussivua ja korvasin sen omalla tekstila komennolla echo “Klaudi weppi on nyt… tässä?” | sudo tee /var/www/html/index.html.
+Selitys: Asensin palvelimelle Apache verkkopalvelimen, jotta voin julkaista verkkosivu. Sitten muokkasin Apachen oletussivua ja korvasin sen omalla tekstillä.
 Testasin, että sivusto toimii oikein. Kirjoitin palvelimen IP osoitteen 185.20.136.42 selaimeen. Sivu avautui ja toimi.
 
 
