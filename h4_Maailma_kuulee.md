@@ -7,10 +7,11 @@ Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 ## x) Tiivistelmät
 
-- Pilvipalvelimen vuokraus ja asennus - Vuokrasin pilvipalvelimen ja kirjauduin siihen etänä SSH-yhteyden avulla. Palvelin saatiin toimimaan ja oli valmis jatkomäärityksiä varten.
-- Palvelin suojaan palomuurilla - Määritin palvelimelle palomuurin, jotta vain tarvittavat yhteydet ovat sallittuja. Näin palvelimen turvallisuus parani.
-- Kotisivut palvelimelle - Asensin Apache-verkkopalvelimen ja loin yksinkertaisen kotisivun. Testasin sivun selaimella ja se toimi oikein.
-- Palvelimen ohjelmien päivitys - Päivitin palvelimen ohjelmat ja tarkistin, että kaikki toimi päivityksen jälkeen normaalisti.
+- Pilvipalvelimen vuokraus ja asennus - Vuokrasin pilvipalvelimen ja kirjauduin siihen  SSH avulla. Se oli helpoa.
+- Palvelin suojaan palomuurilla - Määritin palvelimelle palomuurin. Se oli helpoa.
+- Kotisivut palvelimelle - Asensin Apache verkkopalvelimen ja loin yksinkertaisen kotisivun. Testasin sivun selaimella ja se toimi oikein. 
+- Palvelimen ohjelmien päivitys - Päivitin palvelimen ohjelmat. Se oli helpoa.
+- Root-tunnus - epäonnistui. 
 
 # a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta
 
