@@ -5,13 +5,18 @@ Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 # h4 Maailma kuulee
 
-## x) Tiivistelmät
+# x) Tiivistelmät
 
-- Pilvipalvelimen vuokraus ja asennus - Vuokrasin pilvipalvelimen ja kirjauduin siihen  SSH avulla. Se oli helpoa.
-- Palvelin suojaan palomuurilla - Määritin palvelimelle palomuurin. Se oli helpoa.
-- Kotisivut palvelimelle - Asensin Apache verkkopalvelimen ja loin yksinkertaisen kotisivun. Testasin sivun selaimella ja se toimi oikein. 
-- Palvelimen ohjelmien päivitys - Päivitin palvelimen ohjelmat. Se oli helpoa.
-- Root-tunnus - epäonnistui. 
+## Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla
+
+- Pilvipalvelimen vuokraus ja asennus - Tekstissä kuvataan realistiset ohjeet siitä miten pilvipalvelimen voi vuokrata ja asentaa, missä kohdissa pitää tehdä omaa harkintaa kuten datakeskuksen valinta sijainnin mukaan.<br>
+- Palvelin suojaan palomuurilla - Tekstissä näkyy, lyhyt ja ytimekäs kuvaus siitä miten palomuuri asennetaan, miten siihen tehdään reikä porttia varten sekä miten se laitetaan päälle.<br>
+- Kotisivut palvelimelle – miten luodaan virtuaalipalvelimeen käyttäjä, Apachen testisivu ja miten avataan julkinen kotisivu. <br>
+- Palvelimen ohjelmien päivitys – tämäkin oli lyhyt ja selkeä, millä komennoilla voi asentaa päivitykset sekä tietoturvapäivityksen palvelimelle. <br>
+
+## Karvinen 2017: First Steps on a New Virtual Private Server
+- Hyvä vinkki miten voisi hakea pilvipalvelin ja siihen liittyviä ohjeita esim miten voi avata palomuurin. <br>
+- Tärkeä muistaa että aina pitää tehdä reikä palomuuriin.<br>
 
 # a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta
 
