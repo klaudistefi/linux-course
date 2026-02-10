@@ -3,7 +3,12 @@ Tekijä: Klaudija Majamäki <br>
 Päivämäärä: 24.1 - 25.1.2026 <br>
 Paikka: Pöytätietokone, Windows 11 -kone <br>
 
-## x) Tiivistelmät
+## x) Tiivistelmät Command line basics revisited 
+
+- Linuxissa liikutaan kansioissa ja katsotaan tiedostoja peruskomentojen avulla, kuten pwd, ls, cd ja less
+- Ohjelmien asennus ja järjestelmän hallinta tehdään turvallisesti sudo- ja apt-komennoilla
+- Tiedostoja ja kansioita voidaan luoda ja muokata komennoilla nano, mkdir, mv, cp, rm ja rmdir
+
 
 Tässä tehtävässä perehdyin Linuxin komentorivin peruskäyttöön. Komentorivin käyttö tuntui aluksi haastavalta ja myös lopussa se oli vielä haastavaa, mutta ymmärrys parani vähän harjoittelun aikana.
 
@@ -144,3 +149,5 @@ Tässä on lista mitä tuli esille, eli tietoja tärkeimmistä järjestelmän ti
 
 ## Lähteet: 
 Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/
+
+Karvinen 2020: Command line basics revisited https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
