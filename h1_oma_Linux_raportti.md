@@ -1,7 +1,5 @@
 Kurssi: Linux palvelimet ICI003AS2A-3016 
 
-Tehtävänannot: https://terokarvinen.com/linux-palvelimet/
-
 # Oma Linux raportti
 
 **Asensin onnistuneesti Linux Debian -käyttöjärjestelmän Virtualboxiin. Kuvaillen koko prosessi + Bonus lopussa.**
@@ -9,6 +7,14 @@ Tehtävänannot: https://terokarvinen.com/linux-palvelimet/
 Tein harjoituksen perjantaina 16.1.2026. Käytin omaa tietokonetta asennuksia varten. Käyttöjärjestelmäni on Windows 11 Home, 64-bittinen, pöytätietokone.
 
 Asensin Linux Debian -käyttöjärjestelmän VirtualBoxiin.
+
+## x) Tiivistelmät Raportin kirjoittaminen
+
+
+- Lähteet on tärkeä merkitä raporttiin
+- Tekstin tulee olla selkeää ja helppoa lukea
+- Raporttia on hyvä kirjoittaa samaan aikaan, kun tehtävää tehdään
+- Otsikoiden ja väliotsikoiden käyttö tärkeää
 
 ## 1. Virtualboxin asentaminen
 
@@ -99,10 +105,14 @@ Krita on avoimen lähdekoodin maalausohjelma.
 
 Avasin Software-kaupan ja painoin Install. Asennus kesti muutaman minuutin, ohjelma avautui ja pääsin käyttämään sitä ja piirtämään.
 
-<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/ec3bf9ef-be6c-472e-a58c-e8799a52031e" />
-<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/bb1f2cad-b6cd-46e3-9589-34fa6fd4a6e2" />
-<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/b74991a6-3974-4687-8499-bd67c60e0e46" />
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/ec3bf9ef-be6c-472e-a58c-e8799a52031e" /> <br/>
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/bb1f2cad-b6cd-46e3-9589-34fa6fd4a6e2" /> <br/>
+<img width="434" height="272" alt="image" src="https://github.com/user-attachments/assets/b74991a6-3974-4687-8499-bd67c60e0e46" /> <br/>
 
 
 ## Lähteet: 
 Heinonen, Johanna 2025. How to Install Linux to Virtualbox? Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md#1-virtualbox-installation
+
+Tehtävänannot: https://terokarvinen.com/linux-palvelimet/
+
+Raportin kirjoittaminen https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
