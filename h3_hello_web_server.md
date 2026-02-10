@@ -5,7 +5,19 @@ Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 # h3 Hello Web Server
 
-## x) Tiivistelmä
+## x) Tiivistelmä Apache Software Foundation 2023 ja Karvinen 2018
+
+## The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: Name-based Virtual Host Support
+- Sivulla kerrotaan, miten name-based virtual hostit toimivat
+- Selitetään ero name based ja IP based ratkaisujen välillä
+- Lisäksi kuvataan, miten palvelin valitsee oikean virtual hostin
+
+## Karvinen 2018
+- Kerrotaan, miten Apachella voi ylläpitää useita verkkosivustoja samalla IP osoitteella
+- Neuvotaan, miten Apache verkkopalvelin asennetaan Linuxiin
+- Mukana on myös ohje siihen, miten verkkosivu voidaan luoda ilman sudo oikeuksia
+
+## Raportti
 
 - Tässä tehtävässä opettelin Apache webpalvelimen perustoimintaa ja name based virtual hostin käyttöä. <br>
 - Testasin, että palvelin vastaa localhost osoitteesta ja tutkin Apache lokitiedostoja. <br>
@@ -100,3 +112,5 @@ Karvinen 2012: https://terokarvinen.com/2012/short-html5-page/ <br>
 Onko weppisivu validi https://validator.w3.org <br>
 
 Github Education: https://github.com/education 
+
+
