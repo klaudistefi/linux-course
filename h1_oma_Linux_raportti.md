@@ -12,7 +12,7 @@ Asensin Linux Debian -käyttöjärjestelmän VirtualBoxiin.
 
 ## 1. Virtualboxin asentaminen
 
-Klo 15:45 avasin Johanna Heinosen ohjeet ja aloitin niiden seuraamisen. Asensin VirtualBoxin tietokoneeseen. Perusasennus sujui hyvin ja meni onnistuneesti läpi.
+Klo 12:45 avasin Johanna Heinosen ohjeet ja aloitin niiden seuraamisen. Asensin VirtualBoxin tietokoneeseen. Perusasennus sujui hyvin ja meni onnistuneesti läpi.
 
 Latasin VirtualBoxin tästä: https://www.virtualbox.org/wiki/Downloads
 
