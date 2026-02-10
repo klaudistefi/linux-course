@@ -64,6 +64,39 @@ Selitys: Pääsin UpCloud palvelimelle ssh root@ komennolla. Sitten tein palveli
 
 Root tunnuksen vaihe ei kuitenkaan onnistunut. Ajoin ohjeiden mukaiset komennot, mutta niiden jälkeen koko palvelin jäi jumiin eikä vastannut enää. Tämän vuoksi jouduin luomaan kokonaan uuden palvelimen. Sen jälkeen tein kaikki vaiheet uudelleen alusta asti.
 
+**(lisäys 10.2.2026) <br>**
+
+Selitys: Luennon aikana katsoimme yhdessä tarkemmin miten luodaan uusi tunnus ja laitetaan se kiinni. Sen jälkeen kaikki kohdat onnistuivat. <br>
+
+Alla on kaikki kommentit mitkä oli laitettu linux virtuaalikoneen terminaaliin. Sitten olen tarkistanut, että uusi user on luotu ja en pääse enää root lle. <br>
+
+Ymmärsin, että ensimmäisellä yrityksellä ehkä tein kaiken oikein, mutta en osannut tulkita mitä näen ruudusta ja mitä terminal kertoo minulle, joten en tiennyt oliko se oikein vai väärin.<br>
+
+$ssh root@185.20.136.42 <br>
+#sudo adduser klaudis  <br>
+#sudo adduser klaudis sudo <br>
+#sudo adduser klaudis sudo adm <br>
+#sudo cp -r /root/.ssh/ /home/klaudis/ -v <br>
+#sudo chown klaudis:klaudis /home/klaudis/ -R <br>
+#sudo ls -R -a /home/klaudis/ <br>
+#sudo ls -R -a /home/klaudis/ -l <br>
+#exit <br>
+$ssh root@185.20.136.42 <br>
+
+<img width="848" height="529" alt="image" src="https://github.com/user-attachments/assets/e71210b1-cf62-4258-af95-6a5acf502bae" />
+<img width="649" height="397" alt="image" src="https://github.com/user-attachments/assets/4c96fbdc-7e51-4c4f-884a-bb4c164e53cf" />
+
+$ssh klaudis@185.20.136.42 <br>
+#sudo apt-get update <br>
+#sudo usermod –lock root <br>
+#sudo rm /root/.ssh/authorized_keys <br>
+#exit <br>
+$ssh klaudis@185.20.136.42 <br>
+#sudo echo moi <br>
+
+<img width="751" height="502" alt="image" src="https://github.com/user-attachments/assets/a552c9d2-6dc1-4e0e-b690-a36bd3e14627" />
+<img width="470" height="109" alt="image" src="https://github.com/user-attachments/assets/15f74215-3d00-45ea-ad44-a736a8a5d984" />
+
 # c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti
 
 _$ssh root@185.20.136.42 <br>
