@@ -97,16 +97,13 @@ Query time oli myös erilainen. Namecheapin kysely kesti 51 millisekuntia, kun t
 
 # LÄHTEET:
 
-Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/ 
+Tero Karvinen – Linux-palvelimet. Luettavissa: https://terokarvinen.com/linux-palvelimet/ 
 
 
-www.microsoft.com 
+Nimipalvelin. Luettavissa: www.namecheap.com 
 
 
-www.namecheap.com 
+Linux. Dig. Luettavissa: https://www.linux.fi/wiki/Dig  
 
 
-https://www.linux.fi/wiki/Dig 
-
-
-https://www.linux.fi/wiki/Host 
+Linux. Host. Luettavissa: https://www.linux.fi/wiki/Host 
