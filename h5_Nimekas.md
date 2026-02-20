@@ -7,13 +7,13 @@ Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 ## a) Nimi
 
-Rekisteröidyin palveluun https://www.namecheap.com/ ja hankin domainin **majamakik.site** sieltä.
+Rekisteröidyin palveluun https://www.namecheap.com/ ja hankin domainin **majamakik.site** sieltä. Vuokrasin nimipalvelun vuodeksi, hinta oli 1 € ensimmäiseltä vuodelta. Valitsin ”.site” päätteen, koska se oli edullinen. Itse ostoprosessi oli helppo, ja monet asetukset olivat valmiiksi valittuna minulle sopiviksi. Täytin pakolliset yhteystiedot ja maksutiedot, jonka jälkeen tilaus onnistui ilman ongelmia.
 
 
 Namecheapin hallintapaneelissa lisäsin A-tietueen, joka osoittaa UpCloud-palvelimeni julkiseen IP-osoitteeseen, domainille tuleva liikenne ohjautuu oikealle palvelimelle.
 
 
-Host-kenttä kertoo, mihin osaan domainia tietue liittyy. Käytin Host-kentässä merkkiä @, koska se tarkoittaa päädomainia ilman etuliitteitä. Tämän ansiosta osoite **majamakik.site** ohjautuu suoraan määrittämälleni palvelimelle.
+Host-kenttä kertoo, mihin osaan domainia tietue liittyy. Advanced DNS välilehdelta käytin Host-kentässä merkkiä @, koska se tarkoittaa päädomainia ilman etuliitteitä. Tämän ansiosta osoite **majamakik.site** ohjautuu suoraan määrittämälleni palvelimelle.
 
 
 P.S. Yritin saada domainin ilmaiseksi GitHub Education paketin avulla, mutta se ei onnistunut. Ongelma saattoi johtua siitä, että Haaga-Helia ei ole heidän oppilaitoslistallaan, tai en onnistunut yhdistämään opiskelijatiliä oikein. Otin yhteyttä Namecheapin tukeen, mutta en ole vielä saanut vastausta.
