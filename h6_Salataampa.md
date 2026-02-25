@@ -59,6 +59,8 @@ Kävin kaikki uudelleen läpi ja lueskelin vinkit erilaisessa foorumeista. Kokei
 $ curl majamakik.site 443 komennolla testasin, vastaako palvelin portissa 443. sudo ufw reload komennolla latasin palomuurin asetukset uudelleen.
 sudo systemctl restart apache2 komennolla käynnistin apache verkkopalvelimen uudelleen. Se varmista, että uudet asetukset ja sertifikaatit toimivat.
 sudo ufw allow ’apache Full’, pitäisi avata portit 80 ja 443, jotta verkkosivu toimii selaimessa.
+Uudelleentarkistuksen jälkeen kaikki toimi.
+
 
 Komennot:<br>
 _$ curl majamakik.site 443<br>
