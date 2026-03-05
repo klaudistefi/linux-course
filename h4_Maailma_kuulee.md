@@ -120,5 +120,7 @@ Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4) (opiske
 
 Tero Karvinen – Linux-palvelimet. Luettavissa: https://terokarvinen.com/linux-palvelimet/ <br>
 
+Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited 
+
 
 
