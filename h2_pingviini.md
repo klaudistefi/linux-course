@@ -148,6 +148,6 @@ Tässä on lista mitä tuli esille, eli tietoja tärkeimmistä järjestelmän ti
 <img width="459" height="284" alt="image" src="https://github.com/user-attachments/assets/b9a3e020-79ce-447c-bf4d-c4b91fcd1d1a" />
 
 ## Lähteet: 
-Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/
+Tero Karvinen – Linux-palvelimet. Luettavissa: https://terokarvinen.com/linux-palvelimet/
 
-Karvinen 2020: Command line basics revisited https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+Karvinen 2020: Command line basics revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
