@@ -118,3 +118,7 @@ Heinonen, Johanna 2025. How to Install Linux to Virtualbox? Luettavissa: https:/
 Tero Karvinen – Linux-palvelimet. Luettavissa: https://terokarvinen.com/linux-palvelimet/
 
 Raportin kirjoittaminen Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
+
+Create a Web Page Using Github. Luettavissa: https://terokarvinen.com/2023/create-a-web-page-using-github/
+
+
