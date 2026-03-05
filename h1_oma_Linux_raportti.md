@@ -125,4 +125,4 @@ Download VirtualBox. https://www.virtualbox.org/wiki/Downloads
 
 Downloading Debian. https://www.debian.org/download
 
-
+Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited 
