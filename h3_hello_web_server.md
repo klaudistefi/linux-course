@@ -101,16 +101,16 @@ Minulla on jo GitHub-tunnus. Lisäsin Haaga-Helian sähköpostiosoitteen GitHubi
 
 ## Lähteet:
 
-Tero Karvinen – Linux-palvelimet: https://terokarvinen.com/linux-palvelimet/ <br>
+Tero Karvinen – Linux-palvelimet. Luettavissa: https://terokarvinen.com/linux-palvelimet/ <br>
 
-The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: Name-based Virtual Host Support: https://httpd.apache.org/docs/2.4/vhosts/name-based.html <br>
+The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: Name-based Virtual Host Support. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html <br>
 
-Karvinen 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/  <br>
+Karvinen 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/  <br>
 
-Karvinen 2012: https://terokarvinen.com/2012/short-html5-page/ <br>
+Karvinen 2012. Luettavissa: https://terokarvinen.com/2012/short-html5-page/ <br>
 
-Onko weppisivu validi https://validator.w3.org <br>
+Onko weppisivu validi. Luettavissa: https://validator.w3.org <br>
 
-Github Education: https://github.com/education 
+Github Education. Luettavissa: https://github.com/education 
 
 
