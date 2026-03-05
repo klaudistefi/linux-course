@@ -121,4 +121,8 @@ Raportin kirjoittaminen Luettavissa: https://terokarvinen.com/2006/raportin-kirj
 
 Create a Web Page Using Github. Luettavissa: https://terokarvinen.com/2023/create-a-web-page-using-github/
 
+Download VirtualBox. https://www.virtualbox.org/wiki/Downloads
+
+Downloading Debian. https://www.debian.org/download
+
 
