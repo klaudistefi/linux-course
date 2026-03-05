@@ -1,4 +1,6 @@
-Kurssi: Linux palvelimet ICI003AS2A-3016 
+Kurssi: Linux palvelimet ICI003AS2A-3016 <br>
+Tekijä: Klaudija Majamäki <br>
+Paikka: Pöytätietokone, Windows 11 -kone <br>
 
 # Oma Linux raportti
 
