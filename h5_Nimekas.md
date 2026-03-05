@@ -105,5 +105,6 @@ Nimipalvelin. Luettavissa: www.namecheap.com
 
 Linux. Dig. Luettavissa: https://www.linux.fi/wiki/Dig  
 
+Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited 
 
 Linux. Host. Luettavissa: https://www.linux.fi/wiki/Host 
