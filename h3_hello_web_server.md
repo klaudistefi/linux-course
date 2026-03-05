@@ -113,4 +113,6 @@ Onko weppisivu validi. Luettavissa: https://validator.w3.org <br>
 
 Github Education. Luettavissa: https://github.com/education 
 
+Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited 
+
 
