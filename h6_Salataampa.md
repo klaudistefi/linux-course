@@ -91,3 +91,6 @@ SSLLabs Luettavissa: https://www.ssllabs.com/ssltest/
 
 
 Allow access to Apache on both port 80 and 443 in Ubuntu 16.04 Luettavissa: https://unix.stackexchange.com/questions/460480/allow-access-to-apache-on-both-port-80-and-443-in-ubuntu-16-04 
+
+
+Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited 
