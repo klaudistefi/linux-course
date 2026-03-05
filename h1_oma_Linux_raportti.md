@@ -115,6 +115,6 @@ Avasin Software-kaupan ja painoin Install. Asennus kesti muutaman minuutin, ohje
 ## Lähteet: 
 Heinonen, Johanna 2025. How to Install Linux to Virtualbox? Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md#1-virtualbox-installation
 
-Tehtävänannot: https://terokarvinen.com/linux-palvelimet/
+Tero Karvinen – Linux-palvelimet. Luettavissa: https://terokarvinen.com/linux-palvelimet/
 
-Raportin kirjoittaminen https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
+Raportin kirjoittaminen Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
