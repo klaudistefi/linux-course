@@ -186,48 +186,38 @@ Testasin sivut selaimessa http://localhost/jorma.html, http://localhost/pekka.ht
 
 ### Luo sudo käyttäjä Maija
 
-Seuraava vaihe on luoda käyttäjän Maija. Tein sitä komennolla sudo adduser maija. Sitten pitänyt antaa hänelle sudo ryhmään komennolla sudo usermod -a -G sudo maija. Tarkistin ryhmät komennolla groups maija. Maija voi nyt käyttää sudo komentoja.
-
-
+Seuraavaksi loin käyttäjän Maija. Tein sitä komennolla ```sudo adduser maija```. Sitten pitänyt antaa hänelle sudo ryhmään komennolla ```sudo usermod -a -G sudo maija```. Tarkistin ryhmät komennolla ```groups maija```. Maija voi nyt käyttää sudo komentoja.
 
 <img width="940" height="363" alt="image" src="https://github.com/user-attachments/assets/a7c9139a-f521-4ce4-8a0d-008a0f81ee29" />
 
 ### Tee tietokanta Pekalle
 
-Siirryin MariaDB tietokanan sisälle komennolla sudo mysql. Loin Pekalle oman tietokannan nimeltä pekka_db komennolla CREATE DATABASE pekka_db;
-Komennolla USE pekka_db; loin taulukko:
-CREATE TABLE pekkatest (
-id INT AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(50)
-);
-Lisäsin yhden rivin INSERT INTO pekkatest (name) VALUES ('Hei, Pekka sano Hei tietokannalle');. Sitten testasin, että se meni okien komennolla SELECT * FROM pekkatest;. Sitten exit;. Toimi oikein. 
+Siirsin MariaDB tietokannan sisälle komennolla ```sudo mysql```. Loin Pekalle oman tietokannan nimeltä pekka_db komennolla ```CREATE DATABASE pekka_db;```. Komennolla ```USE pekka_db;``` loin taulukko:
+
+```CREATE TABLE pekkatest ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50) ); ```.
+
+Lisäsin yhden rivin ```INSERT INTO pekkatest (name) VALUES ('Hei, Pekka sano Hei tietokannalle');```. Sitten testasin, että se meni okien komennolla ```SELECT * FROM pekkatest;```. Sitten ```exit;```. Toimi oikein. 
+
 
 <img width="940" height="229" alt="image" src="https://github.com/user-attachments/assets/ef0f2688-ff73-4878-88bd-09da0bca6a1a" />
 <img width="940" height="176" alt="image" src="https://github.com/user-attachments/assets/375fe7cd-a3d8-4433-830d-8d4f61775d8e" />
 
 
-
-Seuraava vaihe on luoda PHP Pekka sivu. Komennolla nano pekka.php.
+Seuraava vaihe on luoda PHP Pekka sivu. Komennolla ```nano pekka.php```.
 
 <img width="940" height="38" alt="image" src="https://github.com/user-attachments/assets/0fd5592e-b0e2-45f6-a04e-4273b6d44bf5" />
-
-<?php
-$db = mysqli_connect("localhost", "root", "", "pekka_db");
-$result = mysqli_query($db, "SELECT name FROM pekkatest");
-$row = mysqli_fetch_assoc($result);
-echo $row['name'];
-?> 
 
 <img width="940" height="283" alt="image" src="https://github.com/user-attachments/assets/045daeb5-85c8-4468-9dc3-351b28eb1dab" />
 
 
-Loin PHP sivun, joka hakee tiedot tietokannasta. Testasin sivun selaimessa osoitteessa http://localhost/pekka.php. Mutta sivu ei toimi, ajanut komento sudo apt-get install php-mysql. Ei aitonut.  Ajanut komento sudo tail /var/log/apache2/error.log. Virhe on line 6. Korjasin php teksti. Ei aitonut.  Ajanut taas sudo tail /var/log/apache2/error.log. Virhe oli line 8. Korjasin php teksti. Ei aitonut. 
+Loin PHP sivun, joka hakee tiedot tietokannasta. Testasin sivun selaimessa osoitteessa http://localhost/pekka.php. Mutta sivu ei toimi, ajanut komento ```sudo apt-get install php-mysql```. Ei auttanut.  Ajoin komento ```sudo tail /var/log/apache2/error.log```. Virhe on line 6. Korjasin php teksti. Ei auttanut.  Ajoin taas ```sudo tail /var/log/apache2/error.log```. Virhe oli line 8. Korjasin php teksti. Ei auttanut. 
 
 <img width="940" height="512" alt="image" src="https://github.com/user-attachments/assets/7203144f-7e3a-44be-8e9d-e2ebe3ab022c" />
 
 <img width="856" height="18" alt="image" src="https://github.com/user-attachments/assets/c4e876d5-2a7a-4420-9429-46b074a1b426" />
 
-Ajanut taas sudo tail /var/log/apache2/error.log. Nyt virhe on seuraava kuvassa:
+Ajoin taas ```sudo tail /var/log/apache2/error.log```. Nyt virhe on seuraava kuvassa:
+
 <img width="940" height="46" alt="image" src="https://github.com/user-attachments/assets/40d7337f-f5a7-4683-9de9-a71f6658d267" />
 
 
