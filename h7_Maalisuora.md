@@ -158,17 +158,7 @@ Loin työntekijöiden käyttäjät komennolla ```adduser jorma```, ``` adduser p
 
 Siirryin kansioon komennoilla ```cd /var/www/html```. Loin jokaiselle käyttäjälle oman sivun komennolla ```sudo nano jorma.html```.
 
-<!DOCTYPE html>
-<html lang=”fi”>
-<head>
-<meta charset=”UTF-8”>
-<title>Jorma</title>
-</head>
-<body>
-<h1>Jorma Mähkylä testisivu</h1>
-</body>
-</html>
-
+<img width="221" height="142" alt="image" src="https://github.com/user-attachments/assets/b3ec553d-ffd5-4f55-b743-86bd0c5cc459" />
 
 Testasin selaimessa, mutta sivu ei toiminut. Alkoi prosessi selvitä mitä ei ole oikean. Komennolla ```sudo systemctl retart apache2``` restarttasin Apachen. Ei auttanut.  Tarkistin ```ls```  komennolla, että sivu on oikeassa kansiossa, se oli. 
 
