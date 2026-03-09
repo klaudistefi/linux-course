@@ -116,5 +116,113 @@ Nyt pitäisi asentaa tietokannan. Asensin MariaDB tietokannan komennolla ```sudo
 <img width="940" height="34" alt="image" src="https://github.com/user-attachments/assets/2cb0edfc-9f5c-4613-8d1f-d377885ca300" />
 <img width="637" height="149" alt="image" src="https://github.com/user-attachments/assets/f74ed7fe-2bb8-4d0e-9b81-3a0f265ad7bc" />
 
+### Luo käyttäjät
+Loin työntekijöiden käyttäjät komennolla ```adduser jorma```, ``` adduser pekka```, ``` adduser ronaldo```, ``` adduser hakan```, ``` adduser einar```, ``` adduser einari``` ja ``` adduser eija```. Koko nimet ovat Jorma Mähkylä, Pekka Hurme, Ronaldo Smith, Håkan Petersson, Einari Mikkonen, Einari Vähäkäähkä, Eija Vähäkäähkä. Tarkistin kotihakemistot komennolla ```ls /home```. Käyttäjät  löytyvät.
+
+<img width="940" height="285" alt="image" src="https://github.com/user-attachments/assets/e44c2722-a82a-426a-8a7d-fe87caa088a6" />
+<img width="940" height="259" alt="image" src="https://github.com/user-attachments/assets/2eadc838-f2e7-48e3-9a10-5876838f899e" />
+<img width="441" height="194" alt="image" src="https://github.com/user-attachments/assets/d7699f17-d263-4c26-bd32-13952b91a75c" />
+
+<img width="940" height="57" alt="image" src="https://github.com/user-attachments/assets/b390d786-6af9-462f-b1c4-3a30a00b6f26" />
+
+
+### Tee HTML sivut
+Siirryin kansioon komennoilla ```cd /var/www/html```. Loin jokaiselle käyttäjälle oman sivun komennolla ```sudo nano jorma.html```.
+<!DOCTYPE html>
+<html lang=”fi”>
+<head>
+<meta charset=”UTF-8”>
+<title>Jorma</title>
+</head>
+<body>
+
+<h1>Jorma Mähkylä testisivu</h1>
+
+</body>
+</html>
+Testasin selaimessa, mutta sivu ei toiminut. Alkoi prosessi selvitä mitä ei ole oikean. Komennolla ```sudo systemctl retart apache2``` restartasin Apache. Ei auttanut.  Tarkistin ```ls```  komennolla, että sivu on oikeassa kansiossa, se oli. 
+
+<img width="940" height="421" alt="image" src="https://github.com/user-attachments/assets/e27d3525-8156-4548-af75-baa11088d926" />
+<img width="940" height="179" alt="image" src="https://github.com/user-attachments/assets/dc8aab10-0154-40d5-8c74-7caeb27c9cfd" />
+
+Selvitin oikean kansion komennolla ```sudo grep -R DocumentRoot /etc/apache2```. Oikea kansio löytyi polulla ```/etc/apache2/sites-enabled/hattu.example.com.conf``` ja DocumentRoot on ```/home/klaudija/hattu.example.com/```. Se on jäänyt näin toisesta tehtävästä ja ajattelin jatka vain siellä.
+Siirsin tiedoston komennolla ```cd /home/klaudija/hattu.example.com``` sinne ja loin uuden jorma.html sivun. Alkoi toimiman ja jatkanut luoman seuraavat sivut. 
+Testasin sivut selaimessa http://localhost/jorma.html, http://localhost/pekka.html, http://localhost/ronaldo.html, http://localhost/hakan.html, http://localhost/einar.html, http://localhost/einari.html ja http://localhost/eija.html. Sivut toimivat oikein. Jokaisella sivulla on otsikossa oma nimi.
+
+<img width="940" height="92" alt="image" src="https://github.com/user-attachments/assets/dfe11b9a-5200-4d5e-af07-b839f964a2bd" />
+<img width="940" height="218" alt="image" src="https://github.com/user-attachments/assets/f7933b0e-94b7-4dfc-9a22-40232959682b" />
+<img width="940" height="242" alt="image" src="https://github.com/user-attachments/assets/303d132d-dcfa-4c38-806a-5d5cf9639a0b" />
+<img width="940" height="260" alt="image" src="https://github.com/user-attachments/assets/d76691ab-c167-4646-a47f-07f129f76a2c" />
+<img width="940" height="274" alt="image" src="https://github.com/user-attachments/assets/82eb2044-e944-4ac5-80a7-f813688486b4" />
+<img width="940" height="259" alt="image" src="https://github.com/user-attachments/assets/5231ee0c-253d-4821-8a5c-8ba044661aeb" />
+<img width="940" height="243" alt="image" src="https://github.com/user-attachments/assets/8a4de7ad-311f-4e74-9916-98c6f05bc05b" />
+<img width="940" height="256" alt="image" src="https://github.com/user-attachments/assets/1070174e-cc1d-413f-8612-5e42e87d5a42" />
+<img width="940" height="49" alt="image" src="https://github.com/user-attachments/assets/7daf686b-2b53-4c0e-be5a-18d52273d80c" />
+<img width="940" height="130" alt="image" src="https://github.com/user-attachments/assets/e7ca9440-5dee-4dc2-a2da-ace3da803cab" />
+<img width="940" height="37" alt="image" src="https://github.com/user-attachments/assets/bdbb4b60-bc5b-467a-b38d-8b4d60692820" />
+
+### Luo sudo käyttäjä Maija
+
+Seuraava vaihe on luoda käyttäjän Maija. Tein sitä komennolla sudo adduser maija. Sitten pitänyt antaa hänelle sudo ryhmään komennolla sudo usermod -a -G sudo maija. Tarkistin ryhmät komennolla groups maija. Maija voi nyt käyttää sudo komentoja.
+
+
+
+<img width="940" height="363" alt="image" src="https://github.com/user-attachments/assets/a7c9139a-f521-4ce4-8a0d-008a0f81ee29" />
+
+### Tee tietokanta Pekalle
+
+Siirryin MariaDB tietokanan sisälle komennolla sudo mysql. Loin Pekalle oman tietokannan nimeltä pekka_db komennolla CREATE DATABASE pekka_db;
+Komennolla USE pekka_db; loin taulukko:
+CREATE TABLE pekkatest (
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(50)
+);
+Lisäsin yhden rivin INSERT INTO pekkatest (name) VALUES ('Hei, Pekka sano Hei tietokannalle');. Sitten testasin, että se meni okien komennolla SELECT * FROM pekkatest;. Sitten exit;. Toimi oikein. 
+
+<img width="940" height="229" alt="image" src="https://github.com/user-attachments/assets/ef0f2688-ff73-4878-88bd-09da0bca6a1a" />
+<img width="940" height="176" alt="image" src="https://github.com/user-attachments/assets/375fe7cd-a3d8-4433-830d-8d4f61775d8e" />
+
+
+
+Seuraava vaihe on luoda PHP Pekka sivu. Komennolla nano pekka.php.
+
+<img width="940" height="38" alt="image" src="https://github.com/user-attachments/assets/0fd5592e-b0e2-45f6-a04e-4273b6d44bf5" />
+
+<?php
+$db = mysqli_connect("localhost", "root", "", "pekka_db");
+$result = mysqli_query($db, "SELECT name FROM pekkatest");
+$row = mysqli_fetch_assoc($result);
+echo $row['name'];
+?> 
+
+<img width="940" height="283" alt="image" src="https://github.com/user-attachments/assets/045daeb5-85c8-4468-9dc3-351b28eb1dab" />
+
+
+Loin PHP sivun, joka hakee tiedot tietokannasta. Testasin sivun selaimessa osoitteessa http://localhost/pekka.php. Mutta sivu ei toimi, ajanut komento sudo apt-get install php-mysql. Ei aitonut.  Ajanut komento sudo tail /var/log/apache2/error.log. Virhe on line 6. Korjasin php teksti. Ei aitonut.  Ajanut taas sudo tail /var/log/apache2/error.log. Virhe oli line 8. Korjasin php teksti. Ei aitonut. 
+
+<img width="940" height="512" alt="image" src="https://github.com/user-attachments/assets/7203144f-7e3a-44be-8e9d-e2ebe3ab022c" />
+
+<img width="856" height="18" alt="image" src="https://github.com/user-attachments/assets/c4e876d5-2a7a-4420-9429-46b074a1b426" />
+
+Ajanut taas sudo tail /var/log/apache2/error.log. Nyt virhe on seuraava kuvassa:
+<img width="940" height="46" alt="image" src="https://github.com/user-attachments/assets/40d7337f-f5a7-4683-9de9-a71f6658d267" />
+
+
+Tämän jälkeen olen ajanut erilaisia komento kombinaatioita kuten sudo systemctl restart apache2, sudo apt install php-mysql jne.
+Yrittänyt muuttua pekka.php teksti monta kerta, mutta silti ei mennyt läpi. Silti se ei ilmestynyt selaimessa. Päätin jätä tämän välin, kun itse ei ole niin teetollinen PHPsta ja miten se toimi. 
+
+<img width="940" height="389" alt="image" src="https://github.com/user-attachments/assets/40ea6bd2-54e2-4e40-978f-5a9825354181" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
