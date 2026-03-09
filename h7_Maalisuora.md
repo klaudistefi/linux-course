@@ -214,6 +214,145 @@ Yrittänyt muuttua pekka.php teksti monta kerta, mutta silti ei mennyt läpi. Si
 <img width="940" height="389" alt="image" src="https://github.com/user-attachments/assets/40ea6bd2-54e2-4e40-978f-5a9825354181" />
 
 
+### Konfiguroi sleep.example.com 
+
+Avasin host tiedosto sudo nano /etc/hosts ja lisäsin hosts sinne 127.0.0.1 sleep.example.com. 
+
+
+
+<img width="940" height="53" alt="image" src="https://github.com/user-attachments/assets/49e68c7e-c59e-47e4-9515-fc42eaab5d03" />
+<img width="940" height="242" alt="image" src="https://github.com/user-attachments/assets/6b9e78cd-e8fb-46ab-a314-fa03d0414981" />
+
+
+Loin kansion ja index.html mkdir /home/klaudija/sleep.example.com.
+Loin sivu komennolla nano /home/klaudija/sleep.example.com/index.html. 
+
+
+
+<img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/a15af57a-a69f-48ad-a610-ab595163f159" />
+
+
+Loin Apache konfiguraation komennolla sudo nano /etc/apache2/sites-available/sleep.example.com.conf.
+
+
+<img width="940" height="298" alt="image" src="https://github.com/user-attachments/assets/a4bc6a86-0fdb-417d-93f2-5290b5621017" />
+
+
+Otin sivun käyttöön sudo a2ensite sleep.example.com.conf ja sudo systemctl restart apache2. 
+"<VirtualHost *:80>
+ServerName sleep.example.com
+DocumentRoot /home/klaudija/hattu.example.com/
+<Directory  /home/klaudija/hattu.example.com/>
+Require all granted
+</Directory>
+</VirtualHost>"
+
+<img width="940" height="318" alt="image" src="https://github.com/user-attachments/assets/afb6f7de-6328-4872-ba7f-a1f85aafbe0e" />
+
+<img width="940" height="288" alt="image" src="https://github.com/user-attachments/assets/249f282e-57a7-4edc-bae9-da84809d1b53" />
+
+Korjasin hosts-tiedostosta kirjoitusvirheen, mikä oli tiedostossa /etc/hosts. Ajoin sudo systemctl restart apache2.  Sivusto alkoi toimia.
+
+
+<img width="940" height="216" alt="image" src="https://github.com/user-attachments/assets/f2ecfc9e-831a-47d6-afea-747edc6fa170" />
+
+
+<img width="940" height="392" alt="image" src="https://github.com/user-attachments/assets/4ddbd51a-db38-40d6-b2be-d3720ccab956" />
+
+
+### Aseta palomuuri
+
+Tarkistin tilan komennolla sudo ufw status. Päällä. Jos ei ole päällä komennto sudo ufw allow 'Apache' ja sudo ufw enable auttaa. 
+
+
+
+<img width="940" height="64" alt="image" src="https://github.com/user-attachments/assets/4808c6a8-7e22-4ee9-8175-d63b69ce7cd5" />
+
+
+
+### Luo komento wowstats
+
+Loin tiedoston komennolla sudo nano /usr/local/bin/wowstats. Lisäsin komennot.
+
+
+<img width="940" height="56" alt="image" src="https://github.com/user-attachments/assets/1bbfd3db-0875-4dc9-be93-db3e56e0ff06" />
+
+<img width="823" height="519" alt="image" src="https://github.com/user-attachments/assets/127a9736-9488-4855-be2d-8be04586317e" />
+
+Tarkoitus:
+df - näyttää levytilan
+free - näyttää muistin
+date - näyttää päivämäärän
+ls - listaa tiedostot
+echo "" - tulostaa tekstiä
+Tein tiedoston suoritettavaksi komennolla  ```$ sudo chmod ugo+x /usr/local/bin/wowstats ```. 
+
+<img width="940" height="29" alt="image" src="https://github.com/user-attachments/assets/7cd68894-93c1-4647-ae23-675aa0fed333" />
+
+
+Testasin komennolla wowstats. Se toimi.
+
+
+<img width="940" height="286" alt="image" src="https://github.com/user-attachments/assets/93098539-8d47-4a62-8bbe-796db21ef86a" />
+
+
+
+
+
+## LÄHTEET:
+
+Tero Karvinen – Linux-palvelimet. Luettavissa: https://terokarvinen.com/linux-palvelimet/
+
+Karvinen 2018: Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. Luettavissa: https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/   
+
+Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited 
+
+Shell Scripting. Luettavissa: https://terokarvinen.com/2007/12/04/shell-scripting-4/ 
+
+How to create custom commands in Unix/Linux? [closed] Luettavissa: https://unix.stackexchange.com/questions/84686/how-to-create-custom-commands-in-unix-linux 
+
+Arvioitava laboratorioharjoitus – Linux palvelimet ict4tn021-2 (uusi OPS) alkukeväällä 2017 p1. Luettavissa: https://terokarvinen.com/2017/03/14/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-2-uusi-ops-alkukevaalla-2017-p1/?fromSearch=arvioitava 
+
+Installing from packages on Debian GNU/Linux and related distributions.  Luettavissa: https://www.php.net/manual/en/install.unix.debian.php 
+
+Install MariaDB. Luettavissa: https://mariadb.com/get-started-with-mariadb/ 
+
+Basics Guide MariaDB. Luettavissa: https://mariadb.com/docs/server/mariadb-quickstart-guides/basics-guide 
+
+Is using "sudo mysql" to use database and learn, OK? Is is normal thing to do in Linux environment? Luettavissa: https://www.reddit.com/r/linux4noobs/comments/ggzj63/is_using_sudo_mysql_to_use_database_and_learn_ok/ 
+
+Install apache2 php module. Luettavissa: https://askubuntu.com/questions/1388251/install-apache2-php-module 
+
+Installing MariaDB Server Guide. Luettavissa: https://mariadb.com/docs/server/mariadb-quickstart-guides/installing-mariadb-server-guide 
+
+Grep command in Unix/Linux. Luettavissa: https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/ 
+
+Allow user to use sudo command has multiple ways, which one is better? Luettavissa: https://superuser.com/questions/618473/allow-user-to-use-sudo-command-has-multiple-ways-which-one-is-better 
+
+Stored Procedures. Luettavissa:  https://www.php.net/manual/en/mysqli.quickstart.stored-procedures.php 
+
+How to provide a link from a resultset variable? Luettavissa: https://community.adobe.com/questions-621/how-to-provide-a-link-from-a-resultset-variable-636258?lang=fi 
+
+h3 Hello Web Server. Luettavissa: https://github.com/klaudistefi/linux-course/blob/main/h3_hello_web_server.md 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
