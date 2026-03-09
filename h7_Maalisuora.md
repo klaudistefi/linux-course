@@ -41,3 +41,80 @@ Komennot:
 ```$ls -l```
 ```$./a.out```
 
+<img width="940" height="149" alt="image" src="https://github.com/user-attachments/assets/762da4a9-1c53-42b3-8343-ab20f55c76ee" />
+<img width="814" height="288" alt="image" src="https://github.com/user-attachments/assets/8215219b-5cd7-4a4d-bf78-e05839ae4456" />
+<img width="940" height="264" alt="image" src="https://github.com/user-attachments/assets/91d5e6cc-4edd-44b6-af2d-33e150f03942" />
+
+###  Bash kieli
+Tein bash skriptin komennolla ```nano helloworld.sh```. Se loi uuden tiedoston ja kirjoitin sinne ```echo ”Hello World Klaudis”```. Tallensin tiedoston ja poistuin terminaalille.
+Bash skriptit toimivat Linuxissa valmiiksi. Ajoin  ```bash hellowordls.sh``` ja se tulosti tekstin “Hello World Klaudis”.
+
+Komennot:
+```$nano hellowordls.sh```
+```$bash hellowordls.sh```
+
+<img width="940" height="34" alt="image" src="https://github.com/user-attachments/assets/b58b1e18-e42c-4123-8d69-e80bcd494f66" />
+
+<img width="940" height="73" alt="image" src="https://github.com/user-attachments/assets/f4888ca5-1202-4e19-861e-080f4a4a8494" />
+
+<img width="900" height="134" alt="image" src="https://github.com/user-attachments/assets/01521b45-70b9-4964-a9ca-be93df5a1074" />
+
+
+## 2) Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä
+
+Aloitin luomalla uuden kansion komennolla ```mkdir bin```, sitten siirryin kansioon ja loin uuden skriptin komennolla ```micro newkomment.sh``` ja teksti ```#!/bin/bash
+echo “Now is the worlds moment $(date)” ```.
+Selitys: #!/bin/bash kommunikoi jestelmälle, että skripti suoritetaan Bashlla. $(date) hakee järjestelmästä nykyisen päivämäärän ja kellonajan.
+Testasin skriptiä komennolla ```bash newkomment.sh```. Komennoilla ```$chmod ugo+x /home/klaudija/bin/newkomment.sh``` annoin tiedostolle suoritusoikeudet, jotta kaiki käyttäjiät voivat suorittaa sitä. 
+Komennoilla ```sudo cp newkomment.sh /user/local/bin``` kopioin skriptin kansioon /usr/local/bin, jota kaikki käyttäjät voivat käyttää sitä. 
+Tarkistin että se toimi mistä vaan kansiosta.
+
+Komennot:
+```$mkdir bin```
+```$cd bin/```
+```$micro newkomment.sh```
+```$bash newkomment.sh```
+```$ls -l ```
+```$chmod ugo+x /home/klaudija/bin/newkomment.sh```
+```$ls -l```
+```$sudo cp newkomment.sh /user/local/bin```
+```$ newkomment.sh```
+
+
+<img width="910" height="134" alt="image" src="https://github.com/user-attachments/assets/0b7ba0a8-ec1c-415d-99e1-4fbc27b14e60" />
+<img width="910" height="127" alt="image" src="https://github.com/user-attachments/assets/dab76647-d67c-4196-80d9-6ca8e57c8dd3" />
+<img width="775" height="68" alt="image" src="https://github.com/user-attachments/assets/76efac18-f3df-4581-9855-73ca81dc29e5" />
+<img width="940" height="87" alt="image" src="https://github.com/user-attachments/assets/da5caed5-5012-4d50-a3e4-1b90719dff00" />
+<img width="885" height="319" alt="image" src="https://github.com/user-attachments/assets/b962488f-f3e4-4af6-ba9f-3b96f282aafc" />
+
+## 3) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin
+
+Arvioitava tehtävä, jonka päätin tehdä, on Arvioitava laboratorioharjoitus – Linux palvelimet ict4tn021-2 (uusi OPS) alkukeväällä 2017 p1.
+Miksi tämä tehtävä? Koska ajattelin että se oli ”helpoin” ymmärtää, mutta myös vähän haastava. Sekä se olisi testannut minun osaamisia. Seurasin tarkkaa järjestystä, jotta en sekoittanut eikä rikkonut mitään.
+
+### Tässä tehtävässä piti tehdä
+
+Asentaa Apache, PHP ja MariaDB
+Luoda kaikki käyttäjät
+Tehdä HTML sivut
+Luoda sudo käyttäjä Maija
+Tehdä tietokanta Pekalle
+Konfiguroida sleep.example.com
+Asettaa palomuuri
+Luoda komento kaikille – wowstats
+
+
+### Asenna Apache, PHP ja MariaDB 
+Ensin päivitin järjestelmän komennolla ```sudo apt update```. Apache oli jo asennettu. Tarkistin kuitenkin komennolla ```systemctl status apache2``` (Mutta jos Apache olisi pitänyt asentaa käytäisi komento ```sudo apt-get install apache2```).
+Asensin PHPn komennolla ```sudo apt-get install php libapache2-mod-php```  ja tarkistin asennus komennolla ```php -v```.
+
+<img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/31e83caa-d942-4850-ae58-58dc4a32c92e" />
+<img width="940" height="151" alt="image" src="https://github.com/user-attachments/assets/ff347e1d-66ea-49a2-aa13-6f05d19dc96c" />
+
+Nyt pitäisi asentaa tietokannan. Asensin MariaDB tietokannan komennolla ```sudo apt-get install mariadb-server```. Tarkistin, että se toimi komennolla ```sudo systemctl status mariadb```. Loin kansion ```mkdir labra```.
+
+<img width="940" height="34" alt="image" src="https://github.com/user-attachments/assets/2cb0edfc-9f5c-4613-8d1f-d377885ca300" />
+<img width="637" height="149" alt="image" src="https://github.com/user-attachments/assets/f74ed7fe-2bb8-4d0e-9b81-3a0f265ad7bc" />
+
+
+
